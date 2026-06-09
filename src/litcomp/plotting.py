@@ -8,6 +8,8 @@ import numpy as np
 from .models import RohsenowParameters, rohsenow_heat_flux
 from .schema import DataPoint
 
+WATER_SATURATION_TEMPERATURE_1ATM_C = 100.0
+
 
 def plot_boiling_curve(
     points: list[DataPoint],
@@ -24,8 +26,8 @@ def plot_boiling_curve(
     for (paper_id, curve_id), group in groups.items():
         sorted_group = sorted(group, key=lambda point: point.wall_superheat_K or 0.0)
         ax.plot(
-            [point.wall_superheat_K for point in sorted_group],
-            [(point.heat_flux_W_m2 or 0.0) / 1000.0 for point in sorted_group],
+            [_wall_temperature_C(point) for point in sorted_group],
+            [_heat_flux_W_cm2(point) for point in sorted_group],
             marker="o",
             linestyle="-",
             label=f"{paper_id}:{curve_id}",
@@ -34,12 +36,18 @@ def plot_boiling_curve(
         _plot_literature_envelope(ax, groups)
     if include_rohsenow:
         x_max = max(point.wall_superheat_K or 1.0 for point in points)
-        x = np.linspace(0.1, max(20.0, x_max), 120)
-        ax.plot(x, rohsenow_heat_flux(x, RohsenowParameters()) / 1000.0, "k--", label="Rohsenow demo")
-    ax.set_xlabel("Wall superheat, dT [K]")
-    ax.set_ylabel("Heat flux, q'' [kW/m^2]")
+        superheat = np.linspace(0.1, max(20.0, x_max), 120)
+        wall_temperature = WATER_SATURATION_TEMPERATURE_1ATM_C + superheat
+        ax.plot(
+            wall_temperature,
+            rohsenow_heat_flux(superheat, RohsenowParameters()) / 10000.0,
+            "k--",
+            label="Rohsenow demo",
+        )
+    ax.set_xlabel(r"Wall temperature, $T_{\mathrm{w}}$ (°C)")
+    ax.set_ylabel(r"Heat flux, $q''$ (W/cm²)")
     ax.set_yscale("log")
-    data_fluxes = [(point.heat_flux_W_m2 or 0.0) / 1000.0 for point in points if point.heat_flux_W_m2]
+    data_fluxes = [_heat_flux_W_cm2(point) for point in points if point.heat_flux_W_m2]
     if data_fluxes:
         ax.set_ylim(max(min(data_fluxes) * 0.5, 1.0), max(data_fluxes) * 1.8)
     ax.grid(True, which="both", alpha=0.3)
@@ -49,9 +57,19 @@ def plot_boiling_curve(
     return destination
 
 
+def _wall_temperature_C(point: DataPoint) -> float | None:
+    if point.wall_superheat_K is None:
+        return None
+    return WATER_SATURATION_TEMPERATURE_1ATM_C + point.wall_superheat_K
+
+
+def _heat_flux_W_cm2(point: DataPoint) -> float:
+    return (point.heat_flux_W_m2 or 0.0) / 10000.0
+
+
 def _plot_literature_envelope(ax: plt.Axes, groups: dict[tuple[str, str], list[DataPoint]]) -> None:
-    x_min = min(point.wall_superheat_K or 0.0 for group in groups.values() for point in group)
-    x_max = max(point.wall_superheat_K or 0.0 for group in groups.values() for point in group)
+    x_min = min(_wall_temperature_C(point) or 0.0 for group in groups.values() for point in group)
+    x_max = max(_wall_temperature_C(point) or 0.0 for group in groups.values() for point in group)
     x_grid = np.linspace(x_min, x_max, 160)
     lower: list[float] = []
     upper: list[float] = []
@@ -60,10 +78,10 @@ def _plot_literature_envelope(ax: plt.Axes, groups: dict[tuple[str, str], list[D
         y_values: list[float] = []
         for group in groups.values():
             sorted_group = sorted(group, key=lambda point: point.wall_superheat_K or 0.0)
-            x_points = np.array([point.wall_superheat_K for point in sorted_group if point.wall_superheat_K is not None])
-            y_points = np.array(
-                [(point.heat_flux_W_m2 or 0.0) / 1000.0 for point in sorted_group if point.wall_superheat_K is not None]
+            x_points = np.array(
+                [_wall_temperature_C(point) for point in sorted_group if point.wall_superheat_K is not None]
             )
+            y_points = np.array([_heat_flux_W_cm2(point) for point in sorted_group if point.wall_superheat_K is not None])
             if len(x_points) >= 2 and x_points[0] <= x_value <= x_points[-1]:
                 y_values.append(float(np.interp(x_value, x_points, y_points)))
         if len(y_values) >= 2:
