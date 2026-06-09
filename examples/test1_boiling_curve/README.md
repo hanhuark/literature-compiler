@@ -25,12 +25,16 @@ What boiling curves have been reported for saturated pool boiling of water on no
 
 ## Demo Data
 
-The included data are small demonstration values, not a complete literature review. Restricted publisher figures and PDFs should not be committed here unless redistribution is allowed.
+The included data are first-pass demonstration values, not a complete literature review. Restricted publisher figures and PDFs should not be committed here unless redistribution is allowed.
+
+- `data/reported_points.csv`: tiny starter dataset used by the earliest smoke tests.
+- `data/literature_points.csv`: initial test1 extraction from Zotero-screened papers, mixing exact reported table data with approximate digitized figure values.
+- `screening_notes.md`: provenance notes, caveats, and next extraction targets.
 
 Run:
 
 ```powershell
-litcomp plot-csv examples/test1_boiling_curve/data/reported_points.csv results/test1_boiling_curve.png --with-models
+litcomp plot-csv examples/test1_boiling_curve/data/literature_points.csv examples/test1_boiling_curve/summary/test1_literature_summary.png --with-models
 ```
 
 ## Community Contribution Ideas

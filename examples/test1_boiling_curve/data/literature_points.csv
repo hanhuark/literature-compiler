@@ -1,0 +1,68 @@
+paper_id,figure_id,curve_id,x_value,x_unit,y_value,y_unit,source_type,extraction_method,digitization_confidence,notes
+huang_2023_pure_copper,table_2,pure_copper,4.30,K,41.18,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,6.16,K,109.23,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,7.14,K,177.65,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,7.42,K,222.88,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,8.02,K,284.65,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,8.46,K,349.14,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,8.89,K,409.31,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,9.23,K,465.43,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,9.68,K,525.98,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,10.07,K,584.17,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,10.58,K,638.52,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,11.07,K,699.51,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,11.64,K,766.94,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,12.10,K,817.13,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,12.62,K,872.84,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,13.13,K,926.70,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,13.81,K,986.35,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,14.54,K,1042.64,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+huang_2023_pure_copper,table_2,pure_copper,15.13,K,1093.28,kW/m^2,reported_table,table_transcription,,directly reported in Table 2
+pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,8.0,K,120.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
+pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,11.0,K,300.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
+pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,13.0,K,500.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
+pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,15.0,K,720.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
+pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,16.2,K,920.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
+pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,16.8,K,1020.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,4.0,K,10.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,6.0,K,20.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,8.0,K,40.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,10.5,K,100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,12.5,K,250.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,14.0,K,420.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,15.5,K,540.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,17.2,K,600.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,18.5,K,670.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,19.5,K,750.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,3.0,K,10.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,5.0,K,25.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,7.0,K,45.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,9.0,K,100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,11.0,K,200.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,13.0,K,350.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,15.0,K,500.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,17.0,K,700.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,19.0,K,900.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,21.0,K,1050.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,6.0,K,100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,8.0,K,150.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,10.0,K,250.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,12.0,K,350.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,14.0,K,450.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,16.0,K,650.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,18.0,K,850.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,20.0,K,1100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,22.0,K,1300.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+shi_2015_copper_nanowire_arrays,fig_6,smooth_surface,24.0,K,1450.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,preliminary digitization of smooth surface reference
+dharmendra_2016_cnt_copper,fig_7,bare_copper,8.1,K,80.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,10.5,K,170.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,11.2,K,220.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,13.0,K,380.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,14.0,K,450.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,15.5,K,580.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,16.2,K,680.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,17.0,K,750.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,17.5,K,820.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,18.2,K,880.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,19.3,K,1010.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+dharmendra_2016_cnt_copper,fig_7,bare_copper,20.2,K,1070.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
