@@ -27,6 +27,8 @@ papers:
       role: candidate baseline curve
     status: screen
     notes: Purdue record states deionized water, smooth copper, enhanced copper surfaces, and boiling curves.
+    figure_leads:
+      - screen for smooth copper boiling curve with water
   - paper_id: kim_2016_roughness_moderate_wettability
     title: Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability
     authors:
@@ -57,6 +59,121 @@ papers:
       role: candidate roughness series
     status: screen
     notes: Abstract reports saturated-water boiling on plain copper surfaces roughened by polishing and femtosecond laser machining.
+  - paper_id: pandey_2024_acoustic_copper_foams
+    title: Acoustic sensing for investigating critical heat flux enhancement during pool boiling on electrodeposited copper foams
+    authors:
+      - Hari Pandey
+      - Hamed Mehrabi
+      - Amanda Williams
+      - Carolina Mira-Hernandez
+      - Robert Henry Coridan
+      - Han Hu
+    year: 2024
+    doi: 10.1016/j.applthermaleng.2023.121807
+    source_url: https://www.sciencedirect.com/science/article/pii/S1359431123018367
+    tags:
+      process: pool boiling
+      fluid: water
+      surface: polished copper
+      role: user-identified baseline curve
+    status: screen
+    figure_leads:
+      - "Fig. 7: black-circle polished Cu boiling curve, heat flux versus wall superheat"
+    notes: User identified Fig. 7 as a direct test1 candidate. ScienceDirect record reports polished copper plus hierarchical copper foams.
+  - paper_id: allred_2019_petal_effect_parahydrophobic
+    title: The petal effect of parahydrophobic surfaces offers low receding contact angles that promote effective boiling
+    authors:
+      - Taylor P. Allred
+      - Justin A. Weibel
+      - Suresh V. Garimella
+    year: 2019
+    doi:
+    source_url: https://www.sciencedirect.com/science/article/pii/S0017931018351044
+    tags:
+      process: pool boiling
+      fluid: water
+      surface: smooth copper
+      role: user-identified baseline curve
+    status: screen
+    figure_leads:
+      - "Fig. 3: smooth copper heat flux versus surface superheat baseline"
+    notes: ScienceDirect record reports smooth copper, smooth PDMS-coated, and smooth Teflon-coated boiling curves.
+  - paper_id: allred_2018_superhydrophobic_prl
+    title: Enabling Highly Effective Boiling from Superhydrophobic Surfaces
+    authors:
+      - Taylor P. Allred
+      - Justin A. Weibel
+      - Suresh V. Garimella
+    year: 2018
+    doi: 10.1103/PhysRevLett.120.174501
+    source_url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.174501
+    tags:
+      process: pool boiling
+      fluid: water
+      surface: smooth or baseline copper
+      role: user-identified baseline curve
+    status: screen
+    figure_leads:
+      - "Fig. 4: user-identified boiling curve containing a flat/smooth copper reference"
+    notes: APS page confirms title, authors, publication date, DOI, and superhydrophobic boiling context.
+  - paper_id: hadzic_2024_inherent_scatter_reference
+    title: Inherent scatter in pool boiling critical heat flux on reference surfaces
+    authors:
+      - Armin Hadzic
+      - Matic Moze
+      - Matevz Zupancic
+      - Iztok Golobic
+    year: 2024
+    doi: 10.1016/j.ijthermalsci.2024.109240
+    source_url: https://www.sciencedirect.com/science/article/pii/S1290072924003624
+    tags:
+      process: pool boiling
+      fluid: double-distilled water
+      surface: bare copper
+      role: benchmark average curve and scatter
+    status: screen
+    figure_leads:
+      - average boiling curve for water on bare copper
+    notes: ScienceDirect record reports 125 boiling curves on nominally identical bare copper samples at saturated atmospheric conditions.
+  - paper_id: li_2015_copper_nanowire_arrays
+    title: Pool boiling heat transfer enhancement with copper nanowire arrays
+    authors: []
+    year: 2015
+    doi: 10.1016/j.applthermaleng.2014.09.040
+    source_url: https://www.sciencedirect.com/science/article/abs/pii/S1359431114008126
+    tags:
+      process: pool boiling
+      fluid: DI water
+      surface: polished bare smooth copper
+      role: candidate baseline curve
+    status: screen
+    notes: ScienceDirect record reports DI water at saturation temperature and 1 atm, with a reference polished bare smooth copper surface before nanowire tests.
+  - paper_id: kumar_2016_vertically_aligned_cnt
+    title: Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate
+    authors: []
+    year: 2016
+    doi: 10.1016/j.applthermaleng.2015.12.081
+    source_url: https://www.sciencedirect.com/science/article/pii/S1359431115014842
+    tags:
+      process: pool boiling
+      fluid: demineralized water
+      surface: bare copper
+      role: candidate baseline curve
+    status: screen
+    notes: ScienceDirect record reports bare copper, sandblasted copper, and CNT-coated copper substrates.
+  - paper_id: cu_al2o3_nanocomposite_2018
+    title: Experimental study of pool boiling heat transfer on copper surfaces with Cu-Al2O3 nanocomposite coatings
+    authors: []
+    year: 2018
+    doi: 10.1016/j.icheatmasstransfer.2018.07.004
+    source_url: https://www.sciencedirect.com/science/article/pii/S0735193318301623
+    tags:
+      process: pool boiling
+      fluid: saturated DI water
+      surface: copper
+      role: candidate baseline curve
+    status: screen
+    notes: ScienceDirect record reports saturated DI water at atmospheric pressure on copper surfaces with nanocomposite coatings.
   - paper_id: pim_micro_patterned_plain_copper
     title: Fabrication of Micro-Patterned Surface for Pool-boiling Enhancement by Using Powder Injection Molding Process
     authors: []
@@ -70,6 +187,21 @@ papers:
       role: candidate baseline curve
     status: screen
     notes: Article reports CHF/HTC for a reference plain copper surface and pool-boiling curves.
+  - paper_id: tiO2_nanofluids_laser_textured_ref
+    title: Effect of Nanoparticle Size and Concentration on Pool Boiling Heat Transfer with TiO2 Nanofluids on Laser-Textured Copper Surfaces
+    authors: []
+    year:
+    doi:
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9370747/
+    tags:
+      process: pool boiling
+      fluid: twice-distilled water
+      surface: bare copper reference
+      role: candidate repeated baseline curves
+    status: screen
+    figure_leads:
+      - "Fig. 3: boiling curves and HTC on the reference surface"
+    notes: Open article states that baseline bare-copper and laser-textured boiling performance was evaluated with twice-distilled water.
   - paper_id: low_conductivity_materials_bare_copper
     title: Increasing Boiling Heat Transfer using Low Conductivity Materials
     authors: []
@@ -141,6 +273,77 @@ papers:
       role: candidate direct copper data
     status: screen
     notes: Abstract reports HTC and CHF data on pure copper; screen for fluid, pressure, and curve availability.
+  - paper_id: langmuir_2023_plasma_aluminum_coatings
+    title: Heat Transfer Characteristics of Pool Boiling with Scalable Plasma-Sprayed Aluminum Coatings
+    authors:
+      - Atul Ranjan
+      - Akash Priy
+    year: 2023
+    doi: 10.1021/acs.langmuir.2c03436
+    source_url: https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.2c03436
+    tags:
+      process: pool boiling
+      fluid: DI water
+      surface: plain copper
+      role: candidate baseline curve
+    status: screen
+    notes: ACS record reports saturated DI-water pool boiling at atmospheric pressure and comparison against a plain copper surface.
+  - paper_id: high_entropy_oxide_nanofluid_baseline
+    title: Compositional Complexity in High-Entropy Oxides Optimizes Colloidal Stability and Pool Boiling Heat Transfer
+    authors: []
+    year:
+    doi:
+    source_url: https://pubs.acs.org/doi/abs/10.1021/prechem.5c00360
+    tags:
+      process: pool boiling
+      fluid: DI water
+      surface: pristine copper baseline
+      role: candidate baseline curve
+    status: screen
+    figure_leads:
+      - "Figure 4: DI water baseline heat flux versus wall superheat"
+    notes: ACS record reports a pristine copper baseline and heat flux versus wall superheat comparison for high-entropy oxide nanofluids.
+  - paper_id: thermal_spray_alumina_long_term
+    title: Effect of thermal spray aluminum oxide coating on the long-term stability of pool boiling heat transfer enhancement
+    authors: []
+    year: 2025
+    doi: 10.1016/j.applthermaleng.2025.126759
+    source_url: https://www.sciencedirect.com/science/article/pii/S1359431125013511
+    tags:
+      process: pool boiling
+      fluid: deionized water
+      surface: smooth copper
+      role: candidate system validation baseline
+    status: screen
+    figure_leads:
+      - "Fig. 7(a): smooth copper boiling curve compared with Rohsenow and Li correlations"
+    notes: ScienceDirect record reports validation studies on smooth copper surfaces and compatibility with Rohsenow correlation.
+  - paper_id: model_based_coatings_2022
+    title: Model-based assessment of boiling heat transfer enhanced by coatings
+    authors: []
+    year: 2022
+    doi: 10.1016/j.ijheatmasstransfer.2022.123272
+    source_url: https://www.sciencedirect.com/science/article/pii/S0017931022007426
+    tags:
+      process: pool boiling
+      fluid: deionized water
+      surface: smooth surface
+      role: candidate baseline and model source
+    status: screen
+    notes: ScienceDirect record reports electrochemical coatings on copper surfaces compared with a smooth surface.
+  - paper_id: reticular_biconductive_bare_copper
+    title: Experimental investigation on pool boiling heat transfer enhancement using reticular bi-conductive surfaces
+    authors: []
+    year:
+    doi:
+    source_url: https://www.sciencedirect.com/science/article/abs/pii/S0735193324007279
+    tags:
+      process: pool boiling
+      fluid: water
+      surface: bare copper
+      role: candidate reliability verification curve
+    status: screen
+    notes: ScienceDirect record reports reliability verification using a bare copper sample and a boiling curve obtained for comparison.
   - paper_id: moze_2020_chf_scatter_review
     title: Investigation of the scatter in reported pool boiling CHF measurements including analysis of heat flux and measurement uncertainty evaluation methodology
     authors:
@@ -157,16 +360,3 @@ papers:
       role: citation chasing and CHF scatter
     status: context_only
     notes: Analyzes 54 CHF data points from 47 publications under matching smooth-copper saturated-water atmospheric conditions.
-  - paper_id: inherent_scatter_reference_surfaces
-    title: Inherent scatter in pool boiling critical heat flux on reference surfaces
-    authors: []
-    year:
-    doi:
-    source_url: https://www.sciencedirect.com/science/article/pii/S1290072924003624
-    tags:
-      process: pool boiling
-      fluid: double-distilled water
-      surface: bare copper
-      role: benchmark average curve and scatter
-    status: screen
-    notes: Search record reports 125 boiling curves on bare copper reference surfaces at saturated atmospheric conditions.

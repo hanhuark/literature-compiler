@@ -12,10 +12,18 @@ Flat copper water pool boiling is often a baseline case inside enhanced-surface 
 - `"pool boiling" "plain copper"`
 - `"pool boiling" "smooth copper"`
 - `"pool boiling" "untreated copper"`
+- `"pool boiling" "polished copper"`
+- `"pool boiling" "bare copper"`
 - `"pool boiling" water copper baseline`
 - `"saturated pool boiling" water copper atmospheric`
 - `"critical heat flux" "smooth copper" saturated water`
 - `"surface roughness" "pool boiling" copper water`
+- `"boiling curve" "smooth copper" "water"`
+- `"Rohsenow" "smooth copper" "pool boiling"`
+- `"Zuber" "smooth copper" "pool boiling"`
+- `"DI water" "polished copper" "pool boiling"`
+- `"deionized water" "bare copper" "pool boiling"`
+- `"Polished Cu" "pool boiling"`
 
 ## Inclusion Criteria For First Pass
 
@@ -47,12 +55,20 @@ These are likely to contain digitizable or reported boiling-curve data for a pla
 1. McHale et al. (2011), "Pool Boiling Performance Comparison of Smooth and Sintered Copper Surfaces with and without Carbon Nanotubes." Purdue's record states that the working fluids include deionized water, the surfaces include smooth copper, and boiling curves are discussed. DOI: `10.1080/15567265.2011.575918`.
 2. Kim et al. (2016), "Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability." The abstract describes saturated water boiling on copper surfaces with roughness ranging from 0.041 to 2.36 um. DOI: `10.1016/j.ijheatmasstransfer.2016.05.067`.
 3. Duan et al. (2020), "Pool boiling heat transfer of saturated water on rough surfaces with the effect of roughening techniques." The abstract describes saturated-water pool boiling on copper surfaces fabricated from plain copper with multiple roughening methods. DOI: `10.1016/j.ijheatmasstransfer.2020.120054`.
-4. "Fabrication of Micro-Patterned Surface for Pool-boiling Enhancement by Using Powder Injection Molding Process." The article reports a reference plain copper surface, CHF and HTC values, and a figure with pool-boiling curves. Open via PMC.
-5. "Increasing Boiling Heat Transfer using Low Conductivity Materials." The article reports saturated water pool boiling at atmospheric conditions and a bare-copper reference reaching about 116 W/cm2 CHF.
-6. "Effect of Surface Wettability on Nanoparticle Deposition during Pool Boiling on Laser-Textured Copper Surfaces." The article reports repeated boiling curves on an untreated reference copper surface with water.
-7. "Nanosecond Laser-Textured Copper Surfaces Hydrophobized with Self-Assembled Monolayers for Enhanced Pool Boiling Heat Transfer." The article includes an untreated copper baseline under saturated water at atmospheric pressure.
-8. "Salt templated and graphene nanoplatelets draped copper composites for dramatic improvements in pool boiling heat transfer." The paper reports a plain copper baseline with CHF around 125 W/cm2 and roughness/contact-angle details.
-9. "Pool boiling experiment characteristics on the pure copper surface." The abstract reports pool-boiling HTC and CHF data on a pure copper heating surface.
+4. Pandey et al. (2024), "Acoustic sensing for investigating critical heat flux enhancement during pool boiling on electrodeposited copper foams." The ScienceDirect record reports a polished copper surface and hierarchical copper foams; the user identified Fig. 7 as containing the polished-Cu boiling curve. DOI: `10.1016/j.applthermaleng.2023.121807`.
+5. "The petal effect of parahydrophobic surfaces offers low receding contact angles that promote effective boiling." The ScienceDirect record reports smooth copper, smooth PDMS-coated, and smooth Teflon-coated surfaces, with Fig. 3 showing heat flux versus surface superheat; the user identified the smooth copper curve as directly useful.
+6. Allred, Weibel, and Garimella (2018), "Enabling Highly Effective Boiling from Superhydrophobic Surfaces." The APS record gives the DOI and abstract; the user identified Fig. 4 as containing a useful smooth/flat copper boiling curve. DOI: `10.1103/PhysRevLett.120.174501`.
+7. "Inherent scatter in pool boiling critical heat flux on reference surfaces." The ScienceDirect record states that 125 boiling curves were measured on nominally identical bare copper samples with double-distilled water under saturated atmospheric conditions, and that an average boiling curve was determined. DOI: `10.1016/j.ijthermalsci.2024.109240`.
+8. "Pool boiling heat transfer enhancement with copper nanowire arrays." The ScienceDirect record reports DI water at saturation temperature and 1 atm on a copper block, with a reference polished bare smooth copper surface before nanowire tests. DOI: `10.1016/j.applthermaleng.2014.09.040`.
+9. "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate." The ScienceDirect record reports pool boiling on bare copper, sandblasted copper, and CNT-coated copper substrates using demineralized water. DOI: `10.1016/j.applthermaleng.2015.12.081`.
+10. "Experimental study of pool boiling heat transfer on copper surfaces with Cu-Al2O3 nanocomposite coatings." The ScienceDirect record reports saturated DI water at atmospheric pressure on copper surfaces with nanocomposite coatings; screen for the smooth/bare copper baseline curve. DOI: `10.1016/j.icheatmasstransfer.2018.07.004`.
+11. "Effect of Nanoparticle Size and Concentration on Pool Boiling Heat Transfer with TiO2 Nanofluids on Laser-Textured Copper Surfaces." The open PMC record states that bare copper and laser-textured surfaces were first evaluated with twice-distilled water, and Fig. 3 contains boiling curves for the reference surface.
+12. "Fabrication of Micro-Patterned Surface for Pool-boiling Enhancement by Using Powder Injection Molding Process." The article reports a reference plain copper surface, CHF and HTC values, and a figure with pool-boiling curves. Open via PMC.
+13. "Increasing Boiling Heat Transfer using Low Conductivity Materials." The article reports saturated water pool boiling at atmospheric conditions and a bare-copper reference reaching about 116 W/cm2 CHF.
+14. "Effect of Surface Wettability on Nanoparticle Deposition during Pool Boiling on Laser-Textured Copper Surfaces." The article reports repeated boiling curves on an untreated reference copper surface with water.
+15. "Nanosecond Laser-Textured Copper Surfaces Hydrophobized with Self-Assembled Monolayers for Enhanced Pool Boiling Heat Transfer." The article includes an untreated copper baseline under saturated water at atmospheric pressure.
+16. "Salt templated and graphene nanoplatelets draped copper composites for dramatic improvements in pool boiling heat transfer." The paper reports a plain copper baseline with CHF around 125 W/cm2 and roughness/contact-angle details.
+17. "Pool boiling experiment characteristics on the pure copper surface." The abstract reports pool-boiling HTC and CHF data on a pure copper heating surface.
 
 ### Citation-Chasing And Benchmark Sources
 
@@ -61,6 +77,7 @@ These sources are especially useful for finding older baseline studies and under
 1. Moze, Zupancic, and Golobic (2020), "Investigation of the scatter in reported pool boiling CHF measurements including analysis of heat flux and measurement uncertainty evaluation methodology." The abstract states that 54 CHF data points from 47 publications were analyzed for smooth copper surfaces in saturated water at atmospheric pressure. DOI: `10.1016/j.applthermaleng.2020.114938`.
 2. "Inherent scatter in pool boiling critical heat flux on reference surfaces." The abstract/search record describes 125 boiling curves on bare copper surfaces with double-distilled water under saturated atmospheric conditions and gives a literature CHF range for bare copper surfaces.
 3. Rohsenow (1951/1952), "A Method of Correlating Heat Transfer Data for Surface Boiling of Liquids." This is a model/correlation anchor, not necessarily a directly comparable flat-copper baseline dataset.
+4. Reviews and recent enhancement papers should be mined for baseline terms such as "control", "reference", "bare", "plain", "polished", "smooth", "untreated", and "Cu".
 
 ## Next Screening Actions
 
@@ -68,4 +85,5 @@ These sources are especially useful for finding older baseline studies and under
 2. For each candidate, record geometry, pressure, fluid purity/degassing, surface preparation, roughness, contact angle, heat-flux method, and whether a curve is plotted or tabulated.
 3. Classify each source as `include`, `exclude`, or `context_only`.
 4. For included sources, identify figure/table IDs containing heat flux versus wall superheat or HTC versus heat flux.
-5. Prioritize digitization of figures with clear axes and plain/smooth copper baseline markers.
+5. Prioritize digitization of figures with clear axes and plain/smooth/polished/bare copper baseline markers.
+6. Search within downloaded PDFs for: `smooth copper`, `polished copper`, `bare copper`, `plain copper`, `untreated`, `reference`, `control`, `boiling curve`, `wall superheat`, `surface superheat`, `heat flux`, and `Rohsenow`.
