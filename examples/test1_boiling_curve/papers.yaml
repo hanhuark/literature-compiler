@@ -8,3 +8,165 @@ papers:
     tags:
       process: pool boiling
       role: reference correlation
+    status: model_reference
+    notes: Correlation anchor for model overlay; screen separately before treating as directly comparable flat-copper water data.
+  - paper_id: mchale_2011_smooth_sintered_copper
+    title: Pool Boiling Performance Comparison of Smooth and Sintered Copper Surfaces with and without Carbon Nanotubes
+    authors:
+      - John P. McHale
+      - S. V. Garimella
+      - Timothy S. Fisher
+      - Glen A. Powell
+    year: 2011
+    doi: 10.1080/15567265.2011.575918
+    source_url: https://docs.lib.purdue.edu/coolingpubs/156/
+    tags:
+      process: pool boiling
+      fluid: deionized water
+      surface: smooth copper
+      role: candidate baseline curve
+    status: screen
+    notes: Purdue record states deionized water, smooth copper, enhanced copper surfaces, and boiling curves.
+  - paper_id: kim_2016_roughness_moderate_wettability
+    title: Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability
+    authors:
+      - Jinsub Kim
+      - Seongchul Jun
+      - Ram Laksnarain
+      - Seung M. You
+    year: 2016
+    doi: 10.1016/j.ijheatmasstransfer.2016.05.067
+    source_url: https://www.sciencedirect.com/science/article/pii/S0017931015316732
+    tags:
+      process: pool boiling
+      fluid: saturated water
+      surface: copper
+      role: candidate baseline and roughness series
+    status: screen
+    notes: Abstract reports copper surfaces with Ra from 0.041 to 2.36 um in saturated water.
+  - paper_id: duan_2020_roughening_techniques
+    title: Pool boiling heat transfer of saturated water on rough surfaces with the effect of roughening techniques
+    authors: []
+    year: 2020
+    doi: 10.1016/j.ijheatmasstransfer.2020.120054
+    source_url: https://www.sciencedirect.com/science/article/pii/S0017931020329902
+    tags:
+      process: pool boiling
+      fluid: saturated water
+      surface: copper
+      role: candidate roughness series
+    status: screen
+    notes: Abstract reports saturated-water boiling on plain copper surfaces roughened by polishing and femtosecond laser machining.
+  - paper_id: pim_micro_patterned_plain_copper
+    title: Fabrication of Micro-Patterned Surface for Pool-boiling Enhancement by Using Powder Injection Molding Process
+    authors: []
+    year:
+    doi:
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6384651/
+    tags:
+      process: pool boiling
+      fluid: water
+      surface: reference plain copper
+      role: candidate baseline curve
+    status: screen
+    notes: Article reports CHF/HTC for a reference plain copper surface and pool-boiling curves.
+  - paper_id: low_conductivity_materials_bare_copper
+    title: Increasing Boiling Heat Transfer using Low Conductivity Materials
+    authors: []
+    year:
+    doi:
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4539544/
+    tags:
+      process: pool boiling
+      fluid: saturated water
+      surface: bare copper
+      role: candidate baseline curve
+    status: screen
+    notes: Search record reports saturated water at atmospheric conditions and a bare copper CHF of about 116 W/cm2.
+  - paper_id: wettability_nanoparticle_deposition_reference
+    title: Effect of Surface Wettability on Nanoparticle Deposition during Pool Boiling on Laser-Textured Copper Surfaces
+    authors: []
+    year:
+    doi:
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10856959/
+    tags:
+      process: pool boiling
+      fluid: water
+      surface: untreated reference copper
+      role: candidate repeated baseline curves
+    status: screen
+    notes: Article reports boiling curves and HTC on an untreated reference surface.
+  - paper_id: laser_textured_sam_untreated_copper
+    title: Nanosecond Laser-Textured Copper Surfaces Hydrophobized with Self-Assembled Monolayers for Enhanced Pool Boiling Heat Transfer
+    authors: []
+    year:
+    doi:
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9696775/
+    tags:
+      process: pool boiling
+      fluid: saturated water
+      surface: untreated copper
+      role: candidate baseline curve
+    status: screen
+    notes: Search record reports untreated-surface baseline and CHF near 1000 kW/m2 under saturated water at atmospheric pressure.
+  - paper_id: gnp_draped_copper_plain_baseline
+    title: Salt templated and graphene nanoplatelets draped copper composites for dramatic improvements in pool boiling heat transfer
+    authors: []
+    year:
+    doi:
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7371685/
+    tags:
+      process: pool boiling
+      fluid: water
+      surface: plain copper
+      role: candidate baseline curve
+    status: screen
+    notes: Article reports a plain copper baseline, roughness/contact angle, and CHF around 125 W/cm2.
+  - paper_id: huang_2022_pure_copper
+    title: Pool boiling experiment characteristics on the pure copper surface
+    authors:
+      - Xiaoli Huang
+      - Zeliang Chen
+      - Nan Gui
+      - Xingtuan Yang
+      - Jiyuan Tu
+      - Shengyao Jiang
+    year: 2022
+    doi: 10.1007/s42757-022-0134-x
+    source_url: https://www.sciopen.com/article/10.1007/s42757-022-0134-x
+    tags:
+      process: pool boiling
+      fluid: screen
+      surface: pure copper
+      role: candidate direct copper data
+    status: screen
+    notes: Abstract reports HTC and CHF data on pure copper; screen for fluid, pressure, and curve availability.
+  - paper_id: moze_2020_chf_scatter_review
+    title: Investigation of the scatter in reported pool boiling CHF measurements including analysis of heat flux and measurement uncertainty evaluation methodology
+    authors:
+      - Matic Moze
+      - Matevz Zupancic
+      - Iztok Golobic
+    year: 2020
+    doi: 10.1016/j.applthermaleng.2020.114938
+    source_url: https://www.sciencedirect.com/science/article/pii/S1359431119359459
+    tags:
+      process: pool boiling
+      fluid: saturated water
+      surface: smooth copper
+      role: citation chasing and CHF scatter
+    status: context_only
+    notes: Analyzes 54 CHF data points from 47 publications under matching smooth-copper saturated-water atmospheric conditions.
+  - paper_id: inherent_scatter_reference_surfaces
+    title: Inherent scatter in pool boiling critical heat flux on reference surfaces
+    authors: []
+    year:
+    doi:
+    source_url: https://www.sciencedirect.com/science/article/pii/S1290072924003624
+    tags:
+      process: pool boiling
+      fluid: double-distilled water
+      surface: bare copper
+      role: benchmark average curve and scatter
+    status: screen
+    notes: Search record reports 125 boiling curves on bare copper reference surfaces at saturated atmospheric conditions.
