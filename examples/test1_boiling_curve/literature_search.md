@@ -79,6 +79,84 @@ These sources are especially useful for finding older baseline studies and under
 3. Rohsenow (1951/1952), "A Method of Correlating Heat Transfer Data for Surface Boiling of Liquids." This is a model/correlation anchor, not necessarily a directly comparable flat-copper baseline dataset.
 4. Reviews and recent enhancement papers should be mined for baseline terms such as "control", "reference", "bare", "plain", "polished", "smooth", "untreated", and "Cu".
 
+## Key-Player Search Pass
+
+The next search pass followed major pool-boiling groups and researchers named by the project owner. This is important because many relevant flat/smooth/plain copper curves appear as baseline or control curves in papers whose title emphasizes a surface treatment, visualization method, AI method, wettability concept, or CHF mechanism rather than the baseline case.
+
+### Justin Weibel / Purdue / Garimella Line
+
+Keep the McHale et al. smooth/sintered copper paper as a high-priority candidate. Search and citation-chase terms:
+
+- `"Justin Weibel" "pool boiling" "smooth copper"`
+- `"Garimella" "Weibel" "pool boiling" "copper"`
+- `"Purdue" "pool boiling" "smooth copper" "deionized water"`
+- `"Allred" "Weibel" "Garimella" "pool boiling"`
+
+The Allred-Weibel-Garimella papers are especially important because the user already identified smooth-copper boiling curves in the ScienceDirect and PRL examples.
+
+### Nenad Miljkovic / UIUC
+
+High-priority candidates from this pass include:
+
+- Li et al. (2019), "Ultrascalable Three-Tier Hierarchical Nanoengineered Surfaces for Optimized Boiling." The ACS record reports ultrahigh CHF and explicitly compares to smooth copper surfaces.
+- Chu et al. (2013), "Enhanced boiling heat transfer with copper oxide hierarchical surfaces." This Wang/Miljkovic-linked conference paper reports pool boiling on CuO hierarchical surfaces; screen for baseline surface data or citation-chain value.
+
+Search terms:
+
+- `"Nenad Miljkovic" "pool boiling" "copper"`
+- `"Ultrascalable Three-Tier Hierarchical Nanoengineered Surfaces" "smooth copper"`
+- `"copper oxide hierarchical surfaces" "Wang" "Miljkovic" "pool boiling"`
+- `"Miljkovic" "smooth copper" "critical heat flux"`
+
+### Evelyn Wang / MIT
+
+High-priority Wang-linked candidates include:
+
+- Chu et al. (2013), "Enhanced boiling heat transfer with copper oxide hierarchical surfaces."
+- Song et al. (2022), "Enhancement of Boiling with Scalable Sandblasted Surfaces." This paper is silicon-focused rather than copper-focused, but it is useful for the Wang/Bucci boiling workflow and citation chasing.
+- Song et al. (2022), "Three-Tier Hierarchical Structures for Extreme Pool Boiling Heat Transfer Performance." Screen for whether a smooth copper or copper-coated baseline is directly digitizable.
+
+Search terms:
+
+- `"Evelyn Wang" "pool boiling" "copper"`
+- `"Evelyn N. Wang" "boiling" "smooth copper"`
+- `"Evelyn Wang" "Matteo Bucci" "boiling"`
+- `"three-tier hierarchical" "Evelyn Wang" "pool boiling"`
+
+### Matteo Bucci / MIT
+
+Bucci's group is a key player in boiling crisis diagnostics, IR thermometry, and AI-assisted boiling physics. Not all Bucci papers are directly comparable to test1 because some use transparent heaters, silicon, flow boiling, refrigerants, liquid nitrogen, or subcooled conditions. Still, they are important for citation chasing and methods.
+
+High-priority candidates:
+
+- Song et al. (2022), "Enhancement of Boiling with Scalable Sandblasted Surfaces." Wang/Bucci collaboration; likely not a copper-water flat baseline, but useful as a player-linked surface-engineering reference.
+- Bucci-led AI/boiling-crisis papers should be screened for whether any water pool-boiling datasets use a flat copper or copper-coated baseline. Otherwise classify as `context_only`.
+
+Search terms:
+
+- `"Matteo Bucci" "pool boiling" "water"`
+- `"Matteo Bucci" "boiling crisis" "pool boiling"`
+- `"Matteo Bucci" "copper" "critical heat flux"`
+- `"data-driven" "boiling crisis" "water" "pool boiling"`
+
+### Amy Betz / Daniel Attinger
+
+High-priority candidates:
+
+- Betz et al. (2010), "Do surfaces with mixed hydrophilic and hydrophobic areas enhance pool boiling?" The record describes smooth and flat mixed-wettability surfaces and pool-boiling enhancement.
+- Betz et al. (2013), "Boiling heat transfer on superhydrophilic, superhydrophobic, and superbiphilic surfaces." The ScienceDirect record describes pool boiling on surfaces with varied wettability and includes HTC/CHF definitions; screen for baseline curves and whether the heater/substrate is directly comparable to copper.
+
+Search terms:
+
+- `"Amy Betz" "pool boiling" "copper"`
+- `"Daniel Attinger" "pool boiling" "copper"`
+- `"superbiphilic" "pool boiling" "copper"`
+- `"mixed hydrophilic hydrophobic" "pool boiling" "copper"`
+
+## Player-Led Screening Note
+
+The key-player pass should not automatically include every paper from these groups. It should identify candidate papers, then screen each against the test1 condition: water, saturated or near-saturated pool boiling, atmospheric pressure, and a flat/smooth/plain/bare/polished/untreated copper baseline curve. Papers using silicon, ITO, tubes, refrigerants, flow boiling, subcooled conditions, or non-copper surfaces should usually be `context_only` unless they contain directly useful citation trails or methodology.
+
 ## Next Screening Actions
 
 1. Open or download accessible PDFs through authorized access or Zotero.
