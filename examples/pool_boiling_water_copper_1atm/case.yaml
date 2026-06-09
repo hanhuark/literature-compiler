@@ -1,8 +1,0 @@
-case_id: pool_boiling_water_copper_1atm
-fluid: water
-process: saturated pool boiling
-surface_material: copper
-surface_state: nominally flat
-pressure: 1 atm
-primary_x: wall_superheat_K
-primary_y: heat_flux_W_m2

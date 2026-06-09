@@ -1,16 +1,35 @@
 # literature-compiler
 
-`literature-compiler` is a Python research-data pipeline for compiling quantitative literature data with explicit provenance.
+`literature-compiler` is a community workflow and Python toolkit for compiling quantitative literature data with explicit provenance.
 
-The seed example compares saturated pool boiling of water on nominally flat copper at 1 atm using boiling curves, digitized figure data, reported data, and reference correlations.
+The project is organized around research-question cases. Each case defines a focused question, registers relevant papers, extracts reported or digitized data, compiles canonical variables, and produces comparison plots that others can inspect and improve.
+
+The first demo is [`test1: Boiling Curve`](examples/test1_boiling_curve/), which compares saturated pool boiling of water on nominally flat copper at 1 atm using boiling curves, digitized or reported data, and reference correlations.
 
 ## What It Does
 
+- Provides a repeatable workflow for community literature-compilation cases.
 - Registers literature sources and experimental-condition metadata.
-- Converts reported or digitized data into canonical boiling-curve variables.
+- Converts reported or digitized data into canonical variables and units.
 - Supports human-in-the-loop semi-automatic digitization from figure images.
 - Preserves provenance for each data point: paper, figure/table, curve, extraction method, confidence, units, and notes.
-- Plots literature boiling curves and optional reference correlations.
+- Plots literature data and optional reference correlations.
+
+## Community Workflow
+
+Each case should document:
+
+- research question;
+- inclusion and exclusion criteria;
+- source registry;
+- extraction method;
+- canonical variables and units;
+- compiled dataset;
+- comparison plot;
+- provenance notes;
+- known gaps and requested community contributions.
+
+See [docs/community-workflow.md](docs/community-workflow.md), [docs/case-template.md](docs/case-template.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Install
 
@@ -22,7 +41,7 @@ python -m pip install -e .[dev]
 
 ```powershell
 litcomp version
-litcomp plot-csv examples/pool_boiling_water_copper_1atm/data/reported_points.csv results/example.png --with-models
+litcomp plot-csv examples/test1_boiling_curve/data/reported_points.csv results/test1_boiling_curve.png --with-models
 ```
 
 The example data are demonstration values only. They are not a complete pool-boiling literature review.

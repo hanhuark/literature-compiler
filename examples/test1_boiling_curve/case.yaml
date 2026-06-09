@@ -1,0 +1,11 @@
+case_id: test1_boiling_curve
+title: "test1: Boiling Curve"
+research_question: "What boiling curves have been reported for saturated pool boiling of water on nominally flat copper surfaces at 1 atm, and how do new measurements compare with prior literature and reference correlations?"
+fluid: water
+process: saturated pool boiling
+surface_material: copper
+surface_state: nominally flat
+pressure: 1 atm
+primary_x: wall_superheat_K
+primary_y: heat_flux_W_m2
+status: demo scaffold
