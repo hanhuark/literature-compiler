@@ -27,6 +27,9 @@ dev = ["pytest>=8.0"]
 [project.scripts]
 litcomp = "litcomp.cli:app"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/litcomp"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
