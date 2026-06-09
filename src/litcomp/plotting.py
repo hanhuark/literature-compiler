@@ -46,10 +46,9 @@ def plot_boiling_curve(
         )
     ax.set_xlabel(r"Wall temperature, $T_{\mathrm{w}}$ (°C)")
     ax.set_ylabel(r"Heat flux, $q''$ (W/cm²)")
-    ax.set_yscale("log")
     data_fluxes = [_heat_flux_W_cm2(point) for point in points if point.heat_flux_W_m2]
     if data_fluxes:
-        ax.set_ylim(max(min(data_fluxes) * 0.5, 1.0), max(data_fluxes) * 1.8)
+        ax.set_ylim(0.0, max(data_fluxes) * 1.15)
     ax.grid(True, which="both", alpha=0.3)
     ax.legend(fontsize=8)
     fig.savefig(destination, dpi=200)
