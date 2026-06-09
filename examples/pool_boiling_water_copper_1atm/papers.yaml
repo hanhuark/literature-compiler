@@ -1,0 +1,10 @@
+papers:
+  - paper_id: rohsenow_1952
+    title: A method of correlating heat-transfer data for surface boiling of liquids
+    authors:
+      - W. M. Rohsenow
+    year: 1952
+    doi:
+    tags:
+      process: pool boiling
+      role: reference correlation

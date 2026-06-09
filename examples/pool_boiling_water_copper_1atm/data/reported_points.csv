@@ -1,0 +1,4 @@
+paper_id,curve_id,x_value,x_unit,y_value,y_unit,source_type,extraction_method,notes
+demo_literature,flat_copper,5,K,45,kW/m^2,reported_table,demo,demonstration point
+demo_literature,flat_copper,10,K,125,kW/m^2,reported_table,demo,demonstration point
+demo_literature,flat_copper,15,K,310,kW/m^2,reported_table,demo,demonstration point
