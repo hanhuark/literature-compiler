@@ -1,0 +1,33 @@
+collection_id: pool_boiling
+title: Pool boiling references
+ref_ids:
+- rohsenow_1952
+- mchale_2011_smooth_sintered_copper
+- kim_2016_roughness_moderate_wettability
+- chu_2013_cuo_hierarchical_wang_miljkovic
+- duan_2020_roughening_techniques
+- li_2019_three_tier_miljkovic
+- pandey_2024_acoustic_copper_foams
+- allred_2019_petal_effect_parahydrophobic
+- allred_2018_superhydrophobic_prl
+- betz_2010_mixed_wettability_apl
+- betz_2013_superbiphilic_surfaces
+- hadzic_2024_inherent_scatter_reference
+- li_2015_copper_nanowire_arrays
+- kumar_2016_vertically_aligned_cnt
+- cu_al2o3_nanocomposite_2018
+- pim_micro_patterned_plain_copper
+- tiO2_nanofluids_laser_textured_ref
+- low_conductivity_materials_bare_copper
+- wettability_nanoparticle_deposition_reference
+- laser_textured_sam_untreated_copper
+- gnp_draped_copper_plain_baseline
+- huang_2022_pure_copper
+- langmuir_2023_plasma_aluminum_coatings
+- song_2022_sandblasted_wang_bucci
+- song_2022_three_tier_extreme_boiling
+- high_entropy_oxide_nanofluid_baseline
+- thermal_spray_alumina_long_term
+- model_based_coatings_2022
+- reticular_biconductive_bare_copper
+- moze_2020_chf_scatter_review

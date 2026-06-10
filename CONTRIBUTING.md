@@ -5,6 +5,7 @@
 ## Ways To Contribute
 
 - Add a new research-question case under `examples/`.
+- Add reusable paper metadata to `references/sources.yaml`.
 - Improve an existing case by adding sources, data, digitization notes, or uncertainty estimates.
 - Add reference correlations with clear assumptions and validity limits.
 - Improve digitization, validation, plotting, or data-export tooling.
@@ -16,7 +17,7 @@ Each case should include:
 
 - A clear research question.
 - Inclusion and exclusion criteria.
-- A source registry with enough metadata for others to find the papers.
+- Shared source IDs from `references/sources.yaml`, plus case-specific relevance notes in `papers.yaml`.
 - Canonical variables and units.
 - Data provenance for every point.
 - Notes on whether values are reported directly or digitized from figures.
@@ -28,6 +29,16 @@ Each case should include:
 Do not commit restricted PDFs or publisher figures unless redistribution is allowed. Use authorized access for papers, keep restricted assets local, and commit metadata plus extracted quantitative values with provenance.
 
 Zotero is encouraged for managing authorized local paper libraries, DOI metadata, BibTeX exports, tags, and attachment paths.
+
+## Reference Hub
+
+Add papers once to `references/sources.yaml`, then link to them from each case with `ref_id`. This lets one paper support multiple research questions without copying bibliographic metadata.
+
+Validate references before opening a pull request:
+
+```powershell
+litcomp refs validate
+```
 
 ## Development
 

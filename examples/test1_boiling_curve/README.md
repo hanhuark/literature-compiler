@@ -17,11 +17,12 @@ What boiling curves have been reported for saturated pool boiling of water on no
 ## Workflow
 
 1. Define inclusion and exclusion criteria.
-2. Register candidate literature sources in `papers.yaml`.
-3. Add reported table/text data or digitized figure data.
-4. Compile the data into canonical units.
-5. Plot literature curves, user data, and reference correlations.
-6. Record uncertainty, gaps, and provenance so other contributors can improve the case.
+2. Register canonical literature metadata in `../../references/sources.yaml`.
+3. Link relevant sources from `papers.yaml` with case-specific screening and extraction notes.
+4. Add reported table/text data or digitized figure data.
+5. Compile the data into canonical units.
+6. Plot literature curves, user data, and reference correlations.
+7. Record uncertainty, gaps, and provenance so other contributors can improve the case.
 
 ## Demo Data
 
@@ -29,6 +30,7 @@ The included data are first-pass demonstration values, not a complete literature
 
 - `data/reported_points.csv`: tiny starter dataset used by the earliest smoke tests.
 - `data/literature_points.csv`: initial test1 extraction from Zotero-screened papers, mixing exact reported table data with approximate digitized figure values.
+- `papers.yaml`: test1-specific source screening notes; paper metadata are mirrored in the shared reference hub.
 - `screening_notes.md`: provenance notes, caveats, and next extraction targets.
 
 Run:

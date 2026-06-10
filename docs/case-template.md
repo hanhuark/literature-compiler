@@ -33,7 +33,19 @@ State the quantitative literature question in one sentence.
 
 ## Source Registry
 
-List sources in `papers.yaml`. Include DOI, title, authors, year, relevance tags, and notes when available.
+Add reusable bibliographic metadata to `references/sources.yaml`. In the case folder, list case-specific source use in `papers.yaml`:
+
+```yaml
+papers:
+  - ref_id: example_2024_surface_boiling
+    status: screen
+    relevance: Candidate baseline curve for this case.
+    figure_leads:
+      - "Fig. 3: heat flux versus wall temperature"
+    notes: Explain why this paper is included, excluded, or still under review.
+```
+
+Run `litcomp refs validate` after adding or editing references.
 
 ## Data Extraction
 

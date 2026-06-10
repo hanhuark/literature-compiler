@@ -31,6 +31,8 @@ Each case should document:
 
 See [docs/community-workflow.md](docs/community-workflow.md), [docs/case-template.md](docs/case-template.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
 
+Shared bibliographic metadata lives in [references/sources.yaml](references/sources.yaml). Individual cases link to those records and add case-specific screening or extraction notes. See [docs/reference-hub.md](docs/reference-hub.md).
+
 ## Install
 
 ```powershell
@@ -41,6 +43,7 @@ python -m pip install -e .[dev]
 
 ```powershell
 litcomp version
+litcomp refs validate
 litcomp plot-csv examples/test1_boiling_curve/data/reported_points.csv results/test1_boiling_curve.png --with-models
 ```
 

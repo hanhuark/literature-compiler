@@ -14,9 +14,17 @@ Example:
 
 Document what counts as comparable literature. For `test1: boiling curve`, inclusion might require saturated pool boiling, water, flat copper, and near-atmospheric pressure. Exclusions might include enhanced surfaces, other fluids, flow boiling, or substantially different pressure ranges.
 
-## 3. Register Sources
+## 3. Register Sources In The Shared Hub
 
-Add candidate papers to `papers.yaml` with identifiers, metadata, tags, and notes. Zotero can help manage DOI metadata, BibTeX keys, collections, and local attachments.
+Add canonical paper metadata once to `references/sources.yaml`. Then add case-specific entries to `examples/<case_id>/papers.yaml` using `ref_id`, status, figure leads, relevance, and notes. Zotero can help manage DOI metadata, BibTeX keys, collections, and local attachments, but the repository should remain usable without access to a contributor's Zotero library.
+
+Run:
+
+```powershell
+litcomp refs validate
+```
+
+This catches missing `ref_id`s and duplicate DOI entries before review.
 
 ## 4. Extract Quantitative Data
 
