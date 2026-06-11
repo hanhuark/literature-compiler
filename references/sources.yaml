@@ -488,3 +488,425 @@ sources:
       role: citation chasing and CHF scatter
     notes: Analyzes 54 CHF data points from 47 publications under matching smooth-copper
       saturated-water atmospheric conditions.
+  zeigarnik_2012_microbubble_emission_nature:
+    title: The nature of microbubble emission under subcooled water boiling
+    authors:
+    - Yu. A. Zeigarnik
+    - D. N. Platonov
+    - K. A. Khodakov
+    - Yu. L. Shekhter
+    year: 2012
+    doi: 10.1134/S0018151X12010208
+    source_url: https://doi.org/10.1134/S0018151X12010208
+    zotero_key: GWTZYPRF
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  tang_2023_bubble_induced_oscillating_flow:
+    title: Bubble-induced oscillating flow in microbubble emission boiling under highly subcooled conditions
+    authors:
+    - Jiguo Tang
+    - Xiao Li
+    - Lingmiao Xu
+    - Licheng Sun
+    year: 2023
+    doi: 10.1017/jfm.2023.285
+    source_url: https://doi.org/10.1017/jfm.2023.285
+    zotero_key: VY3EMVUQ
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  inada_2016_cavitation_bubble_blow_pit:
+    title: Micro-bubble emission boiling with the cavitation bubble blow pit
+    authors:
+    - Shigeaki Inada
+    - Kazuaki Shinagawa
+    - Suhaimi Bin Illias
+    - Hiroyuki Sumiya
+    - Helmisyah A. Jalaludin
+    year: 2016
+    doi: 10.1038/srep33454
+    source_url: https://doi.org/10.1038/srep33454
+    zotero_key: NWAAUQCU
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  sinha_2021_deep_learning_sound_boiling:
+    title: Deep learning the sound of boiling for advance prediction of boiling crisis
+    authors:
+    - Kumar Nishant Ranjan Sinha
+    - Vijay Kumar
+    - Nirbhay Kumar
+    - Atul Thakur
+    - Rishi Raj
+    year: 2021
+    doi: 10.1016/j.xcrp.2021.100382
+    source_url: https://doi.org/10.1016/j.xcrp.2021.100382
+    zotero_key: 5YJ3IL4Y
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  elele_2018_single_bubble_water_boiling_on:
+    title: "Single-bubble water boiling on small heater under Earth\u2019s and low gravity"
+    authors:
+    - Ezinwa Elele
+    - Yueyang Shen
+    - John Tang
+    - Qian Lei
+    - Boris Khusid
+    year: 2018
+    doi: 10.1038/s41526-018-0055-y
+    source_url: https://doi.org/10.1038/s41526-018-0055-y
+    zotero_key: JAD7HI5P
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  ono_2023_acoustic_state_detection_meb:
+    title: Acoustic state detection of microbubble emission boiling using a deep neural network based
+      on cepstrum analysis
+    authors:
+    - Junichiro Ono
+    - Yuta Aoki
+    - Noriyuki Unno
+    - Kazuhisa Yuki
+    - Koichi Suzuki
+    - Yoshitaka Ueki
+    - Shin-ichi Satake
+    year: 2023
+    doi: 10.1016/j.ijmultiphaseflow.2023.104512
+    source_url: https://doi.org/10.1016/j.ijmultiphaseflow.2023.104512
+    zotero_key: UGG5NPCI
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  sinha_2020_audio_visual_thermal_transition:
+    title: Simultaneous audio-visual-thermal characterization of transition boiling regime
+    authors:
+    - Kumar Nishant Ranjan Sinha
+    - Durgesh Ranjan
+    - Nirbhay Kumar
+    - Md. Qaisar Raza
+    - Rishi Raj
+    year: 2020
+    doi: 10.1016/j.expthermflusci.2020.110162
+    source_url: https://doi.org/10.1016/j.expthermflusci.2020.110162
+    zotero_key: SYSKAS7H
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  mao_2021_flow_boiling_instability_review:
+    title: A critical review on measures to suppress flow boiling instabilities in microchannels
+    authors:
+    - Ning Mao
+    - Jiaojiao Zhuang
+    - Tianbiao He
+    - Mengjie Song
+    year: 2021
+    doi: 10.1007/s00231-020-03009-2
+    source_url: https://doi.org/10.1007/s00231-020-03009-2
+    zotero_key: ZK9RR7XG
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  liu_2020_pin_cluster_nucleation:
+    title: Enhanced Nucleate Pool Boiling by Coupling the Pinning Act and Cluster Bubble Nucleation of
+      Micro-nano Composited Surfaces
+    authors:
+    - Bin Liu
+    - Lingmin Yu
+    - Yonghai Zhang
+    - Paolo Di Marco
+    - Jinjia Wei
+    year: 2020
+    doi: 10.1016/j.ijheatmasstransfer.2020.119979
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2020.119979
+    zotero_key: VA7VCSNU
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  litvintsova_2020_boiling_onset_fluctuations:
+    title: Diagnostics of coolant boiling onset based on the analysis of fluctuations of thermohydraulic
+      parameters
+    authors:
+    - Y E Litvintsova
+    - S Laouar
+    - M I Delov
+    - D M Kuzmenkov
+    - A A Lavrukhin
+    - K V Kutsenko
+    year: 2020
+    doi: 10.1088/1742-6596/1689/1/012042
+    source_url: https://doi.org/10.1088/1742-6596/1689/1/012042
+    zotero_key: BJUFH4C7
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  baek_2017_ae_water_boiling_cladding:
+    title: Acoustic emission monitoring of water boiling on fuel cladding surface at 1 bar and 130 bar
+    authors:
+    - Seung Heon Baek
+    - Kaige Wu
+    - Hee-Sang Shim
+    - Deok Hyun Lee
+    - Jung Gu Kim
+    - Do Haeng Hur
+    year: 2017
+    doi: 10.1016/j.measurement.2017.05.042
+    source_url: https://doi.org/10.1016/j.measurement.2017.05.042
+    zotero_key: J4SCVDJT
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  horiuchi_2021_spatial_temporal_thermal_fluid:
+    title: "Spatial\u2013temporal thermal\u2010fluid behaviors of microbubble emission boiling (MEB)"
+    authors:
+    - Kazuna Horiuchi
+    - Hotaka Kobayashi
+    - Shu Miyashita
+    - Takuma Hori
+    - Ichiro Ueno
+    year: 2021
+    doi: 10.1002/aic.17193
+    source_url: https://doi.org/10.1002/aic.17193
+    zotero_key: RN8RNBPF
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  horiuchi_2019_transient_nucleate_to_meb:
+    title: Experimental investigation of transition process from nucleate boiling to microbubble emission
+      boiling under transient heating modes
+    authors:
+    - Jiguo Tang
+    - Licheng Sun
+    - Min Du
+    - Hongtao Liu
+    - Zhengyu Mo
+    - Jingjing Bao
+    year: 2019
+    doi: 10.1002/aic.16555
+    source_url: https://doi.org/10.1002/aic.16555
+    zotero_key: S24F4N22
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  ueki_2024_acoustic_state_cucrzr_divertor:
+    title: Acoustic State Sensing of Subcooled Boiling Heat Transfer on a CuCrZr Surface Using a Deep
+      Neural Network for Divertor Application
+    authors:
+    - Yoshitaka Ueki
+    - Yuta Aoki
+    - Naoya Maeda
+    - Noriyuki Unno
+    - Kazuhisa Yuki
+    - Yohji Seki
+    - Shin-ichi Satake
+    year: 2026
+    doi: 10.1080/15361055.2024.2435193
+    source_url: https://doi.org/10.1080/15361055.2024.2435193
+    zotero_key: RQCEIE46
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  zhu_2014_visualized_meb:
+    title: A visualized study of micro-bubble emission boiling
+    authors:
+    - Guangyu Zhu
+    - Licheng Sun
+    - Jiguo Tang
+    - Zhengyu Mo
+    - Hongtao Liu
+    year: 2014
+    doi: 10.1016/j.icheatmasstransfer.2014.10.003
+    source_url: https://doi.org/10.1016/j.icheatmasstransfer.2014.10.003
+    zotero_key: MG7Y57I9
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  kobayashi_2022_surface_properties_meb_onset:
+    title: Effects of surface properties on wall superheat at the onset of microbubble emission boiling
+    authors:
+    - Noriyuki Unno
+    - Ryotaro Noma
+    - Kazuhisa Yuki
+    - Shin-ichi Satake
+    - Koichi Suzuki
+    year: 2022
+    doi: 10.1016/j.ijmultiphaseflow.2022.104196
+    source_url: https://doi.org/10.1016/j.ijmultiphaseflow.2022.104196
+    zotero_key: RDTMXFSN
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  kawakami_2025_high_frequency_meb_flow:
+    title: High-frequency oscillation of coalesced vapor bubbles and resultant ambient liquid motion in
+      microbubble emission boiling in subcooled pool
+    authors:
+    - Akira Otake
+    - Hotaka Kobayashi
+    - Kizuku Kurose
+    - Ichiro Ueno
+    year: 2025
+    doi: 10.1016/j.ijheatmasstransfer.2025.126832
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2025.126832
+    zotero_key: WELM2YER
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  kobayashi_2024_reduced_pressure_confined_meb:
+    title: Onset of microbubble emission boiling at reduced pressure using a confined vessel for subcooled
+      pool boiling
+    authors:
+    - Noriyuki Unno
+    - Kazuhisa Yuki
+    - Koichi Suzuki
+    year: 2025
+    doi: 10.1016/j.ijheatmasstransfer.2024.126600
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2024.126600
+    zotero_key: 23RAW57T
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  zhao_2025_open_microchannel_meb:
+    title: Flow microbubble emission boiling (MEB) in open microchannels for durable and efficient heat
+      dissipation
+    authors:
+    - Qi Zhao
+    - Mingxiang Lu
+    - Yuanle Zhang
+    - Qiang Li
+    - Xuemei Chen
+    year: 2025
+    doi: 10.1016/j.ijheatmasstransfer.2024.126506
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2024.126506
+    zotero_key: TRMXZ8KP
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  kobayashi_2022_on_homogeneity_of_vapor_bubble:
+    title: "On homogeneity of vapor bubbles\u2019 oscillation and corresponding heat transfer characteristics\
+      \ and boiling sound in microbubble emission boiling (MEB)"
+    authors:
+    - Hotaka Kobayashi
+    - Mirei Hayashi
+    - Kizuku Kurose
+    - Ichiro Ueno
+    year: 2022
+    doi: 10.1016/j.ijheatmasstransfer.2022.122564
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2022.122564
+    zotero_key: HJ49P5RB
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  tang_2016_transition_to_meb:
+    title: Transition process leading to microbubble emission boiling on horizontal circular heated surface
+      in subcooled pool
+    authors:
+    - Jun Ando
+    - Kazuna Horiuchi
+    - Takahito Saiki
+    - Toshihiro Kaneko
+    - Ichiro Ueno
+    year: 2016
+    doi: 10.1016/j.ijheatmasstransfer.2016.05.050
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2016.05.050
+    zotero_key: M7UNIG9L
+    tags:
+      case: test2_meb
+      process: microbubble emission boiling
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  zhou_2018_sound_emission_subcooled_pool:
+    title: Experimental study of sound emission in subcooled pool boiling on a small heating surface
+    authors:
+    - Jiguo Tang
+    - Guo Xie
+    - Jingjing Bao
+    - Zhengyu Mo
+    - Hongtao Liu
+    - Min Du
+    year: 2018
+    doi: 10.1016/j.ces.2018.05.002
+    source_url: https://doi.org/10.1016/j.ces.2018.05.002
+    zotero_key: RZQY5ISN
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.
+  wojtasik_2021_low_pressure_boiling_thesis:
+    title: 'Boiling of water at low pressure: the role of subcooling and thermophysical properties on
+      the bubble dynamics and heat transfer'
+    authors:
+    - Karolina Wojtasik
+    year: null
+    doi: null
+    source_url: null
+    zotero_key: XF6L2UMH
+    tags:
+      case: test2_meb
+      process: boiling diagnostics
+      role: candidate MEB literature
+    notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
+      not committed.

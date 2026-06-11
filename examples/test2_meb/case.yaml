@@ -1,0 +1,18 @@
+case_id: test2_meb
+title: 'test2: Microbubble Emission Boiling'
+research_question: What heat-flux, wall-superheat, oscillation-frequency, and acoustic-signature ranges
+  have been reported for microbubble emission boiling, and how do BoilingLab subcooled pool-boiling cases
+  compare?
+fluid: water
+process: subcooled microbubble emission boiling
+surface_material: copper or application-relevant heated surfaces
+surface_state: plain, confined, microchannel, and engineered surfaces tracked separately
+pressure: subatmospheric to atmospheric, recorded per point
+primary_x: wall_superheat_K
+primary_y: heat_flux_W_m2
+secondary_metrics:
+- MEB onset condition
+- bubble/acoustic frequency
+- band-integrated acoustic power
+- oscillation-envelope time constant
+status: first-pass Zotero screening and BoilingLab comparison scaffold

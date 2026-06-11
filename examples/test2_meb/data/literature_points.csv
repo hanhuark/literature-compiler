@@ -1,0 +1,11 @@
+paper_id,curve_id,x_value,x_unit,y_value,y_unit,source_type,extraction_method,figure_id,notes
+horiuchi_2019_transient_nucleate_to_meb,transition_subcooling_20K,19.78,K,2.56,MW/m^2,reported_text,first_pass_text_extraction,Fig. text,Reported average wall superheat and heat flux before/near MEB transition.
+horiuchi_2019_transient_nucleate_to_meb,transition_subcooling_20K,28.12,K,2.82,MW/m^2,reported_text,first_pass_text_extraction,Fig. text,Reported average wall superheat and heat flux before/near MEB transition.
+horiuchi_2019_transient_nucleate_to_meb,transition_subcooling_20K,53.42,K,3.38,MW/m^2,reported_text,first_pass_text_extraction,Fig. text,Reported average wall superheat and heat flux before/near MEB transition.
+tang_2016_transition_to_meb,tracked_microbubble_meb,53.61,K,5.59,MW/m^2,reported_text,first_pass_text_extraction,microbubble tracking case,Reported time-averaged wall superheat and heat flux for tracked MEB microbubbles.
+horiuchi_2021_spatiotemporal_meb,C_MEB_range_low,40.0,K,2.2,MW/m^2,reported_text,range_endpoint,C-MEB range,"Endpoint of reported C-MEB q and wall-superheat range; pair used as range envelope, not exact curve point."
+horiuchi_2021_spatiotemporal_meb,C_MEB_range_high,80.0,K,3.2,MW/m^2,reported_text,range_endpoint,C-MEB range,"Endpoint of reported C-MEB q and wall-superheat range; pair used as range envelope, not exact curve point."
+horiuchi_2021_spatiotemporal_meb,S_MEB_range_low,50.0,K,1.0,MW/m^2,reported_text,range_endpoint,S-MEB range,Reported S-MEB heat-flux oscillation amplitude is about 1 MW/m^2 while wall superheat ranges 50-80 K.
+horiuchi_2021_spatiotemporal_meb,S_MEB_range_high,80.0,K,1.0,MW/m^2,reported_text,range_endpoint,S-MEB range,Reported S-MEB heat-flux oscillation amplitude is about 1 MW/m^2 while wall superheat ranges 50-80 K.
+inada_2016_cavitation_bubble_blow_pit,pool_boiling_MEB_context,100.0,K,11.0,MW/m^2,reported_text,first_pass_text_extraction,Fig. 5 text,"Pool-boiling system heat flux reported at wall superheat 100 K; specialized system, context only for upper MEB capability."
+sinha_2021_deep_learning_sound_boiling,plain_copper_chf_context,16.0,K,1.45,MW/m^2,reported_text,first_pass_text_extraction,Fig. 1/2 text,"Plain copper/water CHF acoustic-boiling context, not MEB-specific."

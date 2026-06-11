@@ -1,0 +1,193 @@
+papers:
+- ref_id: zeigarnik_2012_microbubble_emission_nature
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - screen for MEB operating conditions and reported quantitative metrics
+  notes: "Under boiling of highly subcooled water at high heat flow rates, several authors have observed\
+    \ emis sion of numerous small (10\u201380 \xB5m) bubbles. This phenomenon has been called as \u201C\
+    microbubble emission.\u201D In this paper we make an attempt to explain this phenomeno..."
+- ref_id: tang_2023_bubble_induced_oscillating_flow
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - bubble or thermal oscillation frequency/amplitude
+  notes: "Microbubble emission boiling (MEB), a phenomenon that occurs under highly subcooled boiling\
+    \ conditions, can achieve a high heat \uFB02ux beyond critical heat \uFB02ux. MEB has been observed\
+    \ to differ from nucleate boiling and is always accompanied by the emission of mic..."
+- ref_id: inada_2016_cavitation_bubble_blow_pit
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - screen for MEB operating conditions and reported quantitative metrics
+  notes: Abstract             The miniaturization boiling (micro-bubble emission boiling [MEB]) phenomenon,
+    with a high heat removal capacity that contributes considerably to the cooling of the divertor of
+    the nuclear fusion reactor, was discovered in the early 1980s. ...
+- ref_id: sinha_2021_deep_learning_sound_boiling
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - acoustic/sound frequency or state-detection signature
+  - MEB onset or transition condition
+  notes: Advance prediction of boiling crisis is critical to the safety and economy of many thermal systems.
+    Here, we perform steady-state nearsaturated boiling experiments on a plain copper surface and acquire
+    the acoustic emissions (AEs) in natural convection, nuclea...
+- ref_id: elele_2018_single_bubble_water_boiling_on
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - heat flux and wall-superheat values
+  notes: "Abstract             Today\u2019s trends for enhancing boiling heat transfer in terrestrial\
+    \ and space applications focus on removal of bubbles to prevent formation of a vapor layer over the\
+    \ surface at high overheat. In contrast, this paper presents a new boiling re..."
+- ref_id: ono_2023_acoustic_state_detection_meb
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - acoustic/sound frequency or state-detection signature
+  - heat flux and wall-superheat values
+  notes: Microbubble emission boiling (MEB) is a cooling technology in which the heat flux can potentially
+    exceed the critical heat flux (CHF). Reliable predictions of the occurrence of MEB are necessary to
+    achieve stable MEB and to induce it under actual environment c...
+- ref_id: sinha_2020_audio_visual_thermal_transition
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - acoustic/sound frequency or state-detection signature
+  - MEB onset or transition condition
+  - heat flux and wall-superheat values
+  notes: Safety concerns due to the highly unstable nature of boiling during the transition from the nucleate
+    to the film boiling regime has limited investigations on this topic. Here we perform simultaneous
+    characterization of the thermal, acoustic, and the bubble vis...
+- ref_id: mao_2021_flow_boiling_instability_review
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - heat flux and wall-superheat values
+  notes: Due to the development of the electronic components, concentrator photovoltaic, fuel cell, etc.,
+    the cooling requirement of the devices increases rapidly. Due to the higher heat transfer and compact
+    design of the microchannel technology, it has been widely con...
+- ref_id: liu_2020_pin_cluster_nucleation
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - screen for MEB operating conditions and reported quantitative metrics
+  notes: "A new idea by coupling the pinning act of the micro-pin-\uFB01ns and the cluster bubble nucleation\
+    \ of nonuniform nanowalls, was proposed to improve the boiling performance on micro-nano composited\
+    \ surface in the low surface tension liquid. To realize this idea, the..."
+- ref_id: litvintsova_2020_boiling_onset_fluctuations
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - bubble or thermal oscillation frequency/amplitude
+  - MEB onset or transition condition
+  notes: When operating heat-exchange facilities, it is of interest to develop methods of diagnostic and
+    prediction for coolant boiling onset. It is known that the surface temperature of a heating element
+    always has stochastic oscillations around an average value, the ...
+- ref_id: baek_2017_ae_water_boiling_cladding
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - acoustic/sound frequency or state-detection signature
+  notes: "This paper aimed to observe the acoustic emission (AE) signals of water boiling occurring on\
+    \ fuel cladding surfaces under \uFB02ow conditions at 325 \xB0C and 130 bar. Visualization test was\
+    \ \uFB01rst performed to identify a correlation between the water boiling phenomenon..."
+- ref_id: horiuchi_2021_spatial_temporal_thermal_fluid
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - MEB onset or transition condition
+  - heat flux and wall-superheat values
+  notes: We investigate non-uniform behaviors in space of the microbubble emission boiling (MEB). Special
+    attention is paid to radial temperature difference on the heated surface before/after the onset of
+    the MEB. Correlation among the regimes of the MEBs, the radial t...
+- ref_id: horiuchi_2019_transient_nucleate_to_meb
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - MEB onset or transition condition
+  - heat flux and wall-superheat values
+  notes: This study investigated the transition from nucleate boiling to microbubble emission boiling
+    (MEB) on a small heating surface under transient heating modes. During the short unstable boiling
+    process after critical heat flux with a rapid increase in wall temper...
+- ref_id: ueki_2024_acoustic_state_cucrzr_divertor
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - acoustic/sound frequency or state-detection signature
+  - heat flux and wall-superheat values
+  notes: In the cooling systems of a nuclear fusion reactor (NFR), anomaly events may occur where the
+    flow of coolant unexpectedly decreases, such as in a loss-of-flow accident (LOFA). From the viewpoint
+    of reactor safety design, ITER should be capable of handling subc...
+- ref_id: zhu_2014_visualized_meb
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - screen for MEB operating conditions and reported quantitative metrics
+  notes: No abstract in packet; screen full text before extracting quantitative values.
+- ref_id: kobayashi_2022_surface_properties_meb_onset
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - MEB onset or transition condition
+  - heat flux and wall-superheat values
+  notes: Boiling heat transfer (BHT) is a promising technology for cooling the high heat flux emitted
+    from next generation electronic devices. Pool boiling represents an eco-friendly cooling technology
+    because its pumps do not require an external electronic power sourc...
+- ref_id: kawakami_2025_high_frequency_meb_flow
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - bubble or thermal oscillation frequency/amplitude
+  notes: High-frequency oscillation of coalesced vapor bubbles and resultant ambient liquid motion in
+    the microbubble emission boiling (MEB) is experimentally investigated. A new approach is introduced
+    to detect the occurrence of MEB by monitoring the temperature fluct...
+- ref_id: kobayashi_2024_reduced_pressure_confined_meb
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - MEB onset or transition condition
+  notes: No abstract in packet; screen full text before extracting quantitative values.
+- ref_id: zhao_2025_open_microchannel_meb
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - MEB onset or transition condition
+  - heat flux and wall-superheat values
+  notes: Microbubble emission boiling (MEB) has been reported to be an advanced heat transfer mechanism
+    due to its significant heat dissipation capacity at high heat flux. Microchannel heat sinks are considered
+    to be effective heat transfer carriers, but MEB is difficu...
+- ref_id: kobayashi_2022_on_homogeneity_of_vapor_bubble
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - acoustic/sound frequency or state-detection signature
+  - bubble or thermal oscillation frequency/amplitude
+  - MEB onset or transition condition
+  notes: "We investigate so-called \u201Cmicrobubble emission boiling (MEB)\u201D on a horizontal circular\
+    \ heat transfer surface in a pool via experimental approach. We indicate the correlation among the\
+    \ temporal and spatial behaviors of the vapor bubbles, the averaged heat trans..."
+- ref_id: tang_2016_transition_to_meb
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - MEB onset or transition condition
+  notes: "Microbubble emission boiling (MEB) produces a higher heat \uFB02ux than critical heat \uFB02\
+    ux (CHF) and therefore has been investigated in terms of its heat transfer characteristics as well\
+    \ as the conditions under which MEB occurs. Its physical mechanism, however, is n..."
+- ref_id: zhou_2018_sound_emission_subcooled_pool
+  status: include
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - acoustic/sound frequency or state-detection signature
+  - bubble or thermal oscillation frequency/amplitude
+  - heat flux and wall-superheat values
+  notes: In this study, sound emission in subcooled pool boiling with a small plate heater was investigated
+    experimentally. Acoustic signals were recorded using a hydrophone and analyzed using sound pressure
+    level (SPL), fast Fourier transform, and discrete wavelet tra...
+- ref_id: wojtasik_2021_low_pressure_boiling_thesis
+  status: context_only
+  relevance: Candidate source for MEB heat-transfer, transition, and/or acoustic-signature compilation.
+  figure_leads:
+  - screen for MEB operating conditions and reported quantitative metrics
+  notes: No abstract in packet; screen full text before extracting quantitative values.
