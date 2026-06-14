@@ -21,7 +21,7 @@ What heat-flux, wall-superheat, oscillation-frequency, and acoustic-signature ra
 - `data/literature_boiling_curve_points_publication.csv`: manuscript-ready literature point table used for the final BoilingLab MEB paper literature-context figure. It records reported-text points and screening envelope points in W/cm^2.
 - `data/literature_digitized_boiling_points_publication.csv`: manuscript-ready digitized literature boiling-curve table used for the same literature-context figure. It preserves source, figure, curve, branch, and recommended-use metadata for the plotted literature curves.
 - `data/boilinglab_points.csv`: decimated BoilingLab heating-only data from the generated four-case comparison.
-- `data/combined_points.csv`: literature and BoilingLab points in the package's canonical boiling-curve schema.
+- `data/combined_points.csv`: literature and BoilingLab points in the package's canonical boiling-curve schema. This table now includes the publication-analysis extracted boiling curves, except for negative-superheat rows that are retained in the source publication CSV but excluded from the canonical package schema.
 - `data/meb_regime_signatures.csv`: richer MEB-specific metrics that do not fit into a simple boiling-curve table.
 - `papers.yaml`: case-specific screening notes linked to shared reference metadata in `../../references/sources.yaml`.
 
@@ -29,6 +29,7 @@ What heat-flux, wall-superheat, oscillation-frequency, and acoustic-signature ra
 
 ```powershell
 litcomp refs validate
+python examples/test2_meb/build_publication_combined_points.py
 litcomp plot-csv examples/test2_meb/data/combined_points.csv examples/test2_meb/summary/test2_meb_boiling_curve_comparison.png
 ```
 

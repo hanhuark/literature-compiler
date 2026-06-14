@@ -15,6 +15,7 @@ The first pass used the local Zotero-derived packet previously generated under t
 | `literature_boiling_curve_points_publication.csv` | included | Publication-analysis literature point table used in the final literature-context figure of the BoilingLab MEB manuscript. |
 | `literature_digitized_boiling_points_publication.csv` | included | Publication-analysis digitized boiling-curve table used in the same manuscript figure; includes curve-level source and branch metadata. |
 | `boilinglab_points.csv` | included | Decimated heating-only points from BoilingLab's four-case comparison (`Boiling-412`, `Boiling-413`, `Boiling-416`, `Boiling-417`). |
+| `combined_points.csv` | included | Canonical plot input regenerated from BoilingLab points, publication literature points, and extracted boiling curves. It contains 370 rows: 120 BoilingLab rows, 188 reported-text literature rows, and 62 digitized-figure rows. |
 | `meb_regime_signatures.csv` | included | MEB-specific onset, heat-flux, frequency, acoustic-sensor, and notes table. This is the main test2 table for deciding what to extract next. |
 
 ## Preliminary Interpretation
@@ -26,6 +27,7 @@ BoilingLab cases occupy lower heat-flux ranges than many high-subcooling MEB lit
 - Reported-text range endpoints are not digitized curves.
 - Manually digitized curve traces are approximate and should be rechecked with calibrated axis picks before being used for regression or meta-analysis.
 - Some rows pair endpoints from a reported range to make a screening envelope; these should not be interpreted as exact experimental points.
+- Two negative-wall-superheat rows from the Zhao et al. 2025 microchannel extraction are retained in `literature_digitized_boiling_points_publication.csv` for traceability but omitted from `combined_points.csv` because the current `literature-compiler` boiling-curve schema requires nonnegative wall superheat.
 - Acoustic-frequency values span different meanings: bubble oscillation, boiling sound peak, hydrophone sampling rate, and low-frequency envelope modulation. The `frequency_type` field must be used when comparing values.
 - BoilingLab low-frequency modulation values are envelope/regime modulation frequencies, not the high-frequency bubble-collapse or sound-carrier frequencies reported in many MEB studies.
 
