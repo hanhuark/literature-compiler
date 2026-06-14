@@ -15,3 +15,7 @@ results/**
 !results/.gitkeep
 figures/**
 !figures/.gitkeep
+
+# Local rendered PDF/page crops used during MEB literature digitization.
+# Do not commit publisher page images; keep only extracted CSV data.
+examples/test2_meb/summary/rendered_pages/
