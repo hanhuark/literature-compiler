@@ -1,0 +1,18 @@
+case_id: test3_htc_chf_structured_surfaces
+title: "test3: HTC at CHF vs. CHF on Structured Surfaces"
+research_question: "What heat-transfer coefficients at critical heat flux have been reported for saturated pool boiling of water on structured surfaces, and how do the reported CHF and HTC-at-CHF values trade off across micro-, nano-, and hierarchical surface families?"
+fluid: water
+process: saturated pool boiling
+surface_material: copper, silicon, aluminum, and other structured heat-transfer substrates tracked per point
+surface_state: microstructured, nanostructured, and hierarchical enhanced surfaces
+pressure: atmospheric or near-atmospheric unless recorded otherwise
+primary_x: chf_W_cm2
+primary_y: htc_at_chf_W_cm2K
+secondary_metrics:
+- wall_superheat_at_chf_K
+- chf_W_m2
+- htc_at_chf_W_m2K
+- surface_family
+- zuber_limit_ratio
+status: manual seed dataset and verification scaffold
+

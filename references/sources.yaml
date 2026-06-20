@@ -910,3 +910,281 @@ sources:
       role: candidate MEB literature
     notes: Imported from local Zotero collection litcomp/test2_meb screening packet; restricted PDFs are
       not committed.
+  chu_2013_hierarchical_chf_apl:
+    title: Hierarchically structured surfaces for boiling critical heat flux enhancement
+    authors:
+    - K. H. Chu
+    - R. Enright
+    - E. N. Wang
+    year: 2013
+    doi: 10.1063/1.4801811
+    source_url: https://doi.org/10.1063/1.4801811
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: hierarchical structured
+      role: manual seed candidate
+    notes: Manual seed row C10; verify source value and surface details before final use.
+  rahman_2014_wickability_chf:
+    title: Role of wickability on the critical heat flux of structured superhydrophilic surfaces
+    authors:
+    - Md Mahamudur Rahman
+    - Eva Olceroglu
+    - Matthew McCarthy
+    year: 2014
+    doi: 10.1021/la5030923
+    source_url: https://doi.org/10.1021/la5030923
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: structured superhydrophilic
+      role: manual seed candidate
+    notes: Manual seed row C2; verify wall superheat at CHF before final use.
+  kim_2015_microstructured_surface:
+    title: Boiling heat transfer and critical heat flux evaluation of the pool boiling on micro structured surface
+    authors: []
+    year: 2015
+    doi: 10.1016/j.ijheatmasstransfer.2015.07.120
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2015.07.120
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: microstructured
+      role: manual seed candidate
+    notes: Manual seed rows C4 and C18; verify which source curves or surfaces correspond to each point.
+  xu_2015_composite_porous_surface:
+    title: Manual seed source to be verified; Xu et al. structured or composite porous surface pool boiling
+    authors: []
+    year: 2015
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: composite porous or microstructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C5 is labeled Xu et al. 2011 in the MATLAB legend; bibliographic identity needs correction.
+  calati_2021_water_pool_boiling_metal_foams:
+    title: Manual seed source to be verified; Calati et al. water pool boiling in metal foams
+    authors: []
+    year: 2021
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: metal foam
+      role: unresolved manual seed candidate
+    notes: Manual seed row C19; verify title, DOI, foam material, and extraction location.
+  jun_2016_sintered_copper_microporous:
+    title: Manual seed source to be verified; Jun et al. sintered copper microporous pool boiling
+    authors: []
+    year: 2016
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: sintered copper microporous
+      role: unresolved manual seed candidate
+    notes: Manual seed row C23; high HTC value requires source verification.
+  li_2021_liquid_film_structured_surfaces:
+    title: Liquid film-induced critical heat flux enhancement on structured surfaces
+    authors:
+    - Jiaqi Li
+    year: 2021
+    doi: 10.1126/sciadv.abg4537
+    source_url: https://doi.org/10.1126/sciadv.abg4537
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: structured
+      role: manual seed candidate
+    notes: Manual seed row C6; verify source curve and whether HTC is evaluated at CHF.
+  pi_2020_microstructured_surface:
+    title: Manual seed source to be verified; Pi et al. microstructured surface pool boiling
+    authors: []
+    year: 2020
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: microstructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C7; title, DOI, and extraction location need verification.
+  chen_2020_microstructured_surface:
+    title: Manual seed source to be verified; Chen et al. microstructured surface pool boiling
+    authors: []
+    year: 2020
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: microstructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C20; title, DOI, and extraction location need verification.
+  pham_2020_structured_surface:
+    title: Manual seed source to be verified; Pham et al. structured surface pool boiling
+    authors: []
+    year: 2020
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: structured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C15; title, DOI, and extraction location need verification.
+  yu_2018_microstructured_surface:
+    title: Manual seed source to be verified; Yu et al. microstructured surface pool boiling
+    authors: []
+    year: 2018
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: microstructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C12; title, DOI, and extraction location need verification.
+  cho_2019_microstructured_surface:
+    title: Manual seed source to be verified; Cho et al. microstructured surface pool boiling
+    authors: []
+    year: 2019
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: microstructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C9; title, DOI, and extraction location need verification.
+  zhang_2019_femtosecond_laser_surface:
+    title: Manual seed source to be verified; Zhang et al. femtosecond-laser structured surface pool boiling
+    authors: []
+    year: 2019
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: femtosecond-laser structured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C8; title, DOI, and extraction location need verification.
+  elkholy_2020_hook_structures:
+    title: Manual seed source to be verified; Elkholy et al. hook-shaped or 3D structured surface pool boiling
+    authors: []
+    year: 2020
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: hook-shaped or 3D structured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C21; candidate title and publication year need verification.
+  mo_2020_porous_honeycomb_copper:
+    title: Enhanced pool boiling performance of a porous honeycomb copper surface with radial diameter gradient
+    authors: []
+    year: 2020
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: porous honeycomb copper
+      role: manual seed candidate
+    notes: Manual seed row C16; DOI and source value need verification.
+  chen_2009_nanowires_boiling:
+    title: Nanowires for enhanced boiling heat transfer
+    authors:
+    - R. Chen
+    - M.-C. Lu
+    - V. Srinivasan
+    - Z. Wang
+    - H. H. Cho
+    - A. Majumdar
+    year: 2009
+    doi: 10.1021/nl8026857
+    source_url: https://doi.org/10.1021/nl8026857
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: nanowires
+      role: manual seed candidate
+    notes: Manual seed row C3; verify source value before final use.
+  lu_2011_si_nanowire_chf:
+    title: Critical heat flux of pool boiling on Si nanowire array-coated surfaces
+    authors:
+    - M.-C. Lu
+    - R. Chen
+    - V. Srinivasan
+    - V. P. Carey
+    - A. Majumdar
+    year: 2011
+    doi: 10.1016/j.ijheatmasstransfer.2011.08.007
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2011.08.007
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: silicon nanowire array
+      role: manual seed candidate
+    notes: Manual seed row C17; verify source value before final use.
+  lee_2018_nanostructured_surface:
+    title: Manual seed source to be verified; Lee et al. nanostructured surface pool boiling
+    authors: []
+    year: 2018
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: nanostructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C11; title, DOI, and extraction location need verification.
+  xie_2021_nanostructured_surface:
+    title: Manual seed source to be verified; Xie et al. nanostructured surface pool boiling
+    authors: []
+    year: 2021
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: nanostructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C25; title, DOI, and extraction location need verification.
+  mao_2020_nanostructured_surface:
+    title: Manual seed source to be verified; Mao et al. nanostructured surface pool boiling
+    authors: []
+    year: 2020
+    doi: null
+    source_url: null
+    tags:
+      case: test3_htc_chf_structured_surfaces
+      process: pool boiling
+      fluid: water
+      surface: nanostructured
+      role: unresolved manual seed candidate
+    notes: Manual seed row C22; title, DOI, and extraction location need verification.

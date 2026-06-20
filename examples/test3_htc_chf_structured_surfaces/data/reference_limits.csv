@@ -1,0 +1,3 @@
+limit_id,chf_W_cm2,basis
+zuber_hydrodynamic_limit,110.94220248625541,Water at 0.1 MPa and 100 C using the same properties as the manual MATLAB script.
+kinetic_limit,16500.0,Manual comparison line retained from the MATLAB seed script.

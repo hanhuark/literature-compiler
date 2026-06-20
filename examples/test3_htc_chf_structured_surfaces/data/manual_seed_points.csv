@@ -1,0 +1,28 @@
+manual_id,ref_id,source_label,surface_family,surface_descriptor,chf_W_cm2,wall_superheat_at_chf_K,include_in_seed_plot,verification_status,notes
+C10,chu_2013_hierarchical_chf_apl,Chu et al. 2013,hierarchical,Hierarchically structured surface,250,35,true,manual_seed,Plotted as green circle in the manual MATLAB figure.
+C1,li_2019_three_tier_miljkovic,Li et al. 2019,hierarchical,Three-tier hierarchical nanoengineered copper surface,400,32,true,manual_seed,Plotted as green square in the manual MATLAB figure.
+C2,rahman_2014_wickability_chf,Rahman et al. 2014,hierarchical,Structured superhydrophilic surface,257,31,true,manual_seed,Plotted as green triangle in the manual MATLAB figure.
+C4,kim_2015_microstructured_surface,Kim et al. 2015,micro,Microstructured surface,225,52,true,manual_seed,Plotted as blue circle in the manual MATLAB figure.
+C5,xu_2015_composite_porous_surface,Xu et al. 2011,micro,Composite porous surface,150,22,true,manual_seed,Manual legend says Xu et al. 2011; current bibliographic candidate is Xu et al. 2015 and needs verification against the original source.
+C19,calati_2021_water_pool_boiling_metal_foams,Calati et al. 2021,micro,Aluminum metal foam,105,20,true,manual_seed,Plotted as blue triangle in the manual MATLAB figure.
+C18,kim_2015_microstructured_surface,Kim et al. 2015,micro,Alternate microstructured configuration from same manual source label,195,7,true,manual_seed,Plotted as blue plus in the manual MATLAB figure.
+C23,jun_2016_sintered_copper_microporous,Jun et al. 2016,micro,Sintered copper microporous coating,210,5,true,manual_seed,Manual y-axis clipped this high-HTC point because h = 42 W/cm2K.
+C6,li_2021_liquid_film_structured_surfaces,Li et al. 2021,micro,Structured surface with liquid-film-induced CHF enhancement,246,27,true,manual_seed,Plotted as blue point in the manual MATLAB figure.
+C7,pi_2020_microstructured_surface,Pi et al. 2020,micro,Microstructured surface,167,35,true,manual_seed,Bibliographic metadata needs verification against the original source.
+C20,chen_2020_microstructured_surface,Chen et al. 2020,micro,Microstructured surface,165,21,true,manual_seed,Bibliographic metadata needs verification against the original source.
+C13,betz_2010_mixed_wettability_apl,Betz et al. 2010,micro,Mixed-wettability or biphilic surface,190,26,true,manual_seed,Plotted as blue vertical marker in the manual MATLAB figure.
+C15,pham_2020_structured_surface,Pham et al. 2020,micro,Structured surface,110,17,true,manual_seed,Bibliographic metadata needs verification against the original source.
+C12,yu_2018_microstructured_surface,Yu et al. 2018,micro,Microstructured surface,187.7,55,true,manual_seed,Bibliographic metadata needs verification against the original source.
+C9,cho_2019_microstructured_surface,Cho et al. 2019,micro,Microstructured surface,144.4,25,true,manual_seed,Bibliographic metadata needs verification against the original source.
+C8,zhang_2019_femtosecond_laser_surface,Zhang et al. 2019,micro,Femtosecond-laser-processed surface,303,23,true,manual_seed,Plotted as blue diamond in the manual MATLAB figure.
+C21,elkholy_2020_hook_structures,Elkholy et al. 2020,micro,Hook-shaped or 3D structured surface,180,30,true,manual_seed,Bibliographic metadata needs verification against the original source.
+C16,mo_2020_porous_honeycomb_copper,Mo et al. 2020,micro,Porous honeycomb copper surface,120,7,true,manual_seed,Plotted as blue inverted triangle in the manual MATLAB figure.
+C3,chen_2009_nanowires_boiling,Chen et al. 2009,nano,Nanowire-coated surface,225,31,true,manual_seed,Plotted as red circle in the manual MATLAB figure.
+C17,lu_2011_si_nanowire_chf,Lu et al. 2011,nano,Silicon nanowire array-coated surface,223.9,25,true,manual_seed,Plotted as red square in the manual MATLAB figure.
+C11,lee_2018_nanostructured_surface,Lee et al. 2018,nano,Nanostructured surface,260,38,true,manual_seed,Bibliographic metadata needs verification against the original source.
+C25,xie_2021_nanostructured_surface,Xie et al. 2021,nano,Nanostructured surface,214.2,17,true,manual_seed,Plotted as red plus in the manual MATLAB figure.
+C22,mao_2020_nanostructured_surface,Mao et al. 2020,nano,Nanostructured surface,214,24,true,manual_seed,Plotted as red x in the manual MATLAB figure.
+C14,manual_unassigned_c14,Unassigned manual C14,unassigned,Manual value defined but commented out in plot,160,17,false,unverified,Defined in MATLAB but associated plot and legend line is commented out.
+C24,manual_unassigned_c24,Unassigned manual C24,unassigned,Manual value defined but not plotted,325,7.3,false,unverified,Defined in MATLAB but never plotted.
+C26,manual_unassigned_c26,Unassigned manual C26,unassigned,Manual value defined but commented out in plot,225,25,false,unverified,Defined in MATLAB but associated plot and legend line is commented out.
+

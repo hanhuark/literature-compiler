@@ -1,0 +1,112 @@
+papers:
+- ref_id: chu_2013_hierarchical_chf_apl
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Chu et al. 2013
+  notes: Seed row C10; verify the exact surface and whether the plotted value is HTC at CHF.
+- ref_id: li_2019_three_tier_miljkovic
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Li et al. 2019
+  notes: Seed row C1; candidate hierarchical high-CHF point near 400 W/cm2.
+- ref_id: rahman_2014_wickability_chf
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Rahman et al. 2014
+  notes: Seed row C2; verify wall superheat at CHF and surface-family assignment.
+- ref_id: kim_2015_microstructured_surface
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Kim et al. 2015
+  notes: Seed rows C4 and C18; likely different microstructured configurations from the same source label.
+- ref_id: xu_2015_composite_porous_surface
+  status: candidate_mismatch
+  figure_leads:
+  - manual legend label: Xu et al. 2011
+  notes: Seed row C5; bibliographic candidate currently points to Xu et al. 2015, so the source label requires correction or replacement.
+- ref_id: calati_2021_water_pool_boiling_metal_foams
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Calati et al. 2021
+  notes: Seed row C19; verify foam geometry and whether the point is from saturated atmospheric water.
+- ref_id: jun_2016_sintered_copper_microporous
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Jun et al. 2016
+  notes: Seed row C23; high HTC value was clipped by the manual y-axis and needs source verification.
+- ref_id: li_2021_liquid_film_structured_surfaces
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Li et al. 2021
+  notes: Seed row C6; verify whether the point comes from structured liquid-film boiling data.
+- ref_id: pi_2020_microstructured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Pi et al. 2020
+  notes: Seed row C7; title, DOI, and extraction location need verification.
+- ref_id: chen_2020_microstructured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Chen et al. 2020
+  notes: Seed row C20; title, DOI, and extraction location need verification.
+- ref_id: betz_2010_mixed_wettability_apl
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Betz et al. 2010
+  notes: Seed row C13; verify whether the plotted point corresponds to HTC at CHF or maximum HTC.
+- ref_id: pham_2020_structured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Pham et al. 2020
+  notes: Seed row C15; title, DOI, and extraction location need verification.
+- ref_id: yu_2018_microstructured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Yu et al. 2018
+  notes: Seed row C12; title, DOI, and extraction location need verification.
+- ref_id: cho_2019_microstructured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Cho et al. 2019
+  notes: Seed row C9; title, DOI, and extraction location need verification.
+- ref_id: zhang_2019_femtosecond_laser_surface
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Zhang et al. 2019
+  notes: Seed row C8; verify laser-processed surface material and whether water is saturated.
+- ref_id: elkholy_2020_hook_structures
+  status: candidate_mismatch
+  figure_leads:
+  - manual legend label: Elkholy et al. 2020
+  notes: Seed row C21; candidate title appears as hook-shaped structures but publication year may differ from the manual legend.
+- ref_id: mo_2020_porous_honeycomb_copper
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Mo et al. 2020
+  notes: Seed row C16; verify exact porous honeycomb copper surface and source value.
+- ref_id: chen_2009_nanowires_boiling
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Chen et al. 2009
+  notes: Seed row C3; verify nanowire morphology and wall superheat at CHF.
+- ref_id: lu_2011_si_nanowire_chf
+  status: manual_seed_verification_needed
+  figure_leads:
+  - manual legend label: Lu et al. 2011
+  notes: Seed row C17; verify whether HTC is recomputed from CHF and wall superheat at CHF.
+- ref_id: lee_2018_nanostructured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Lee et al. 2018
+  notes: Seed row C11; title, DOI, and extraction location need verification.
+- ref_id: xie_2021_nanostructured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Xie et al. 2021
+  notes: Seed row C25; title, DOI, and extraction location need verification.
+- ref_id: mao_2020_nanostructured_surface
+  status: unresolved_bibliography
+  figure_leads:
+  - manual legend label: Mao et al. 2020
+  notes: Seed row C22; title, DOI, and extraction location need verification.
+
