@@ -4,11 +4,10 @@ papers:
   notes: Correlation anchor for model overlay; screen separately before treating as
     directly comparable flat-copper water data.
 - ref_id: mchale_2011_smooth_sintered_copper
-  status: screen
+  status: extracted
   figure_leads:
-  - screen for smooth copper boiling curve with water
-  notes: Purdue record states deionized water, smooth copper, enhanced copper surfaces,
-    and boiling curves.
+  - 'Fig. 4: refined bare-copper ascending and descending boiling curves for DI water'
+  notes: Refined into separate ascending and descending bare-copper curves in data/literature_points.csv.
 - ref_id: kim_2016_roughness_moderate_wettability
   status: screen
   notes: Abstract reports copper surfaces with Ra from 0.041 to 2.36 um in saturated
@@ -32,17 +31,17 @@ papers:
   notes: User identified Fig. 7 as a direct test1 candidate. ScienceDirect record
     reports polished copper plus hierarchical copper foams.
 - ref_id: allred_2019_petal_effect_parahydrophobic
-  status: screen
+  status: extracted
   figure_leads:
   - 'Fig. 3: smooth copper heat flux versus surface superheat baseline'
-  notes: ScienceDirect record reports smooth copper, smooth PDMS-coated, and smooth
-    Teflon-coated boiling curves.
+  notes: Smooth copper curve extracted from downloaded ScienceDirect PDF.
 - ref_id: allred_2018_superhydrophobic_prl
-  status: screen
+  status: extracted_with_caveat
   figure_leads:
   - 'Fig. 4: user-identified boiling curve containing a flat/smooth copper reference'
-  notes: APS page confirms title, authors, publication date, DOI, and superhydrophobic
-    boiling context.
+  notes: Hydrophilic bare-copper comparison curve extracted; keep caveat that this is
+    a superhydrophobic-structure study rather than a perfect flat polished copper
+    baseline.
 - ref_id: betz_2010_mixed_wettability_apl
   status: screen
   notes: Record describes smooth and flat mixed hydrophilic/hydrophobic surfaces with
@@ -53,11 +52,10 @@ papers:
     and very high CHF/HTC for superbiphilic surfaces; screen for baseline curve and
     substrate.
 - ref_id: hadzic_2024_inherent_scatter_reference
-  status: screen
+  status: extracted
   figure_leads:
   - average boiling curve for water on bare copper
-  notes: ScienceDirect record reports 125 boiling curves on nominally identical bare
-    copper samples at saturated atmospheric conditions.
+  notes: Average boiling curve from 125 measurements extracted from Fig. 3.
 - ref_id: li_2015_copper_nanowire_arrays
   status: screen
   notes: ScienceDirect record reports DI water at saturation temperature and 1 atm,
@@ -85,12 +83,16 @@ papers:
   notes: Search record reports saturated water at atmospheric conditions and a bare
     copper CHF of about 116 W/cm2.
 - ref_id: wettability_nanoparticle_deposition_reference
-  status: screen
-  notes: Article reports boiling curves and HTC on an untreated reference surface.
+  status: partially_extracted
+  figure_leads:
+  - 'Fig. 4a: untreated reference repeated-run family'
+  notes: REF run 1 and REF run 5 extracted as representative repeated-run bounds;
+    remaining REF runs should be calibrated later.
 - ref_id: laser_textured_sam_untreated_copper
-  status: screen
-  notes: Search record reports untreated-surface baseline and CHF near 1000 kW/m2
-    under saturated water at atmospheric pressure.
+  status: extracted
+  figure_leads:
+  - 'Fig. 5a: untreated reference curve shown with shallow-channel data'
+  notes: Untreated reference curve extracted from Fig. 5a.
 - ref_id: gnp_draped_copper_plain_baseline
   status: screen
   notes: Article reports a plain copper baseline, roughness/contact angle, and CHF

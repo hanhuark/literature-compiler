@@ -19,7 +19,7 @@ def plot_boiling_curve(
 ) -> Path:
     destination = Path(output_path)
     destination.parent.mkdir(parents=True, exist_ok=True)
-    fig, ax = plt.subplots(figsize=(6.5, 4.5), constrained_layout=True)
+    fig, ax = plt.subplots(figsize=(10.5, 6.0), constrained_layout=True)
     groups: dict[tuple[str, str], list[DataPoint]] = {}
     for point in points:
         groups.setdefault((point.paper_id, point.curve_id), []).append(point)
@@ -50,7 +50,7 @@ def plot_boiling_curve(
     if data_fluxes:
         ax.set_ylim(0.0, max(data_fluxes) * 1.15)
     ax.grid(True, which="both", alpha=0.3)
-    ax.legend(fontsize=8)
+    ax.legend(fontsize=7, loc="center left", bbox_to_anchor=(1.02, 0.5), borderaxespad=0.0)
     fig.savefig(destination, dpi=200)
     plt.close(fig)
     return destination

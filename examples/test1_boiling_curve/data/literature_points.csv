@@ -24,16 +24,27 @@ pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,13.0,K,500.0,kW/m^2,digitiz
 pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,15.0,K,720.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
 pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,16.2,K,920.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
 pandey_2024_acoustic_copper_foams,fig_7a,polished_cu,16.8,K,1020.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.65,preliminary digitization of black polished Cu markers
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,4.0,K,10.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,6.0,K,20.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,8.0,K,40.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,10.5,K,100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,12.5,K,250.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,14.0,K,420.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,15.5,K,540.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,17.2,K,600.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,18.5,K,670.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
-mchale_2011_smooth_sintered_copper,fig_4,bare_copper_di_water,19.5,K,750.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper DI-water curve
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,2.5,K,5.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,5.0,K,12.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,7.5,K,25.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,9.5,K,55.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,11.0,K,100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,12.5,K,180.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,13.5,K,300.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,14.0,K,420.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,15.0,K,540.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,16.0,K,650.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_ascending,17.2,K,740.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper ascending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,3.0,K,6.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,5.5,K,15.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,8.0,K,35.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,10.0,K,70.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,11.5,K,130.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,13.0,K,230.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,14.0,K,350.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,15.0,K,480.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,16.5,K,600.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
+mchale_2011_smooth_sintered_copper,fig_4,bare_copper_descending,18.0,K,720.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.58,refined manual digitization of bare copper descending symbols
 hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,3.0,K,10.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
 hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,5.0,K,25.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
 hadzic_2022_tio2_nanofluids,fig_3a,ref_surface_run_family,7.0,K,45.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary representative reference-surface curve from five runs
@@ -66,3 +77,65 @@ dharmendra_2016_cnt_copper,fig_7,bare_copper,17.5,K,820.0,kW/m^2,digitized_figur
 dharmendra_2016_cnt_copper,fig_7,bare_copper,18.2,K,880.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
 dharmendra_2016_cnt_copper,fig_7,bare_copper,19.3,K,1010.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
 dharmendra_2016_cnt_copper,fig_7,bare_copper,20.2,K,1070.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,preliminary digitization of bare copper experimental values
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,5.5,K,20.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,8.0,K,60.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,10.0,K,120.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,12.0,K,200.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,15.0,K,400.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,18.0,K,650.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,20.0,K,970.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2018_superhydrophobic_prl,fig_4a,hydrophilic_bare_copper,23.0,K,1100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.50,user-requested Fig. 4 reference curve; hydrophilic bare copper comparison
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,7.0,K,60.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,9.0,K,150.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,10.5,K,280.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,11.5,K,400.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,12.5,K,520.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,13.5,K,620.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,14.5,K,750.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,15.5,K,900.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,16.8,K,1050.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+allred_2019_petal_effect_parahydrophobic,fig_3g,smooth_copper,18.0,K,1150.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.55,manual digitization of smooth copper grey markers from Fig. 3g
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,8.0,K,50.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,11.0,K,100.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,13.0,K,180.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,14.5,K,300.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,16.0,K,420.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,17.0,K,520.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,18.0,K,650.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,19.0,K,780.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,20.0,K,900.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+hadzic_2024_inherent_scatter_reference,fig_3,average_boiling_curve,21.0,K,1000.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.62,manual digitization of average boiling curve from 125 measurements
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,4.0,K,20.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,6.0,K,40.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,8.0,K,70.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,10.0,K,160.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,12.0,K,300.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,14.0,K,420.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,16.0,K,520.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,18.0,K,640.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,20.0,K,780.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,22.0,K,900.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run1,24.0,K,960.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,4.0,K,10.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,6.0,K,30.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,8.0,K,60.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,10.0,K,150.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,12.0,K,330.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,14.0,K,520.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,16.0,K,700.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,18.0,K,880.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,20.0,K,1050.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+berce_2024_wettability_nanoparticle_deposition,fig_4a,ref_run5,21.0,K,1084.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference run family from Fig. 4a
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,4.0,K,20.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,6.0,K,30.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,8.0,K,50.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,10.0,K,80.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,12.0,K,150.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,14.0,K,220.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,16.0,K,300.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,18.0,K,400.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,20.0,K,520.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,22.0,K,650.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,24.0,K,750.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,26.0,K,850.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
+moze_2022_laser_textured_sam_untreated_copper,fig_5a,untreated_reference,30.0,K,980.0,kW/m^2,digitized_figure,manual_from_rendered_pdf,0.52,manual digitization of untreated reference curve shown with shallow-channel data
