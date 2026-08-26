@@ -7,6 +7,9 @@ from pydantic import BaseModel, Field, model_validator
 from .units import convert_value
 
 SourceType = Literal["reported_table", "reported_text", "digitized_figure", "user_experiment"]
+VerificationStatus = Literal["unverified", "screening", "source_checked", "independently_verified"]
+RightsStatus = Literal["unknown", "metadata_only", "pending_review", "approved_for_release", "restricted"]
+EvidenceClass = Literal["reported", "digitized", "measured"]
 
 
 class Paper(BaseModel):
@@ -33,6 +36,13 @@ class DataPoint(BaseModel):
     figure_id: str | None = None
     table_id: str | None = None
     digitization_confidence: float | None = Field(default=None, ge=0.0, le=1.0)
+    study_id: str | None = None
+    experiment_id: str | None = None
+    source_group: str | None = None
+    evidence_class: EvidenceClass | None = None
+    verification_status: VerificationStatus = "unverified"
+    rights_status: RightsStatus = "unknown"
+    relative_uncertainty_pct: float | None = Field(default=None, ge=0.0)
     notes: str = ""
     wall_superheat_K: float | None = None
     heat_flux_W_m2: float | None = None
@@ -49,4 +59,21 @@ class DataPoint(BaseModel):
             raise ValueError("wall_superheat_K must be nonnegative")
         if self.heat_flux_W_m2 <= 0:
             raise ValueError("heat_flux_W_m2 must be positive")
+        if self.study_id is None:
+            self.study_id = self.paper_id
+        if self.experiment_id is None:
+            self.experiment_id = f"{self.paper_id}:{self.curve_id}"
+        if self.source_group is None:
+            self.source_group = self.study_id
+        derived_evidence_class: EvidenceClass = (
+            "digitized"
+            if self.source_type == "digitized_figure"
+            else "measured"
+            if self.source_type == "user_experiment"
+            else "reported"
+        )
+        if self.evidence_class is None:
+            self.evidence_class = derived_evidence_class
+        elif self.evidence_class != derived_evidence_class:
+            raise ValueError("evidence_class must agree with source_type")
         return self

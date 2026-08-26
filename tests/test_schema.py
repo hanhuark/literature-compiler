@@ -33,6 +33,10 @@ def test_data_point_normalizes_boiling_quantities():
 
     assert point.wall_superheat_K == pytest.approx(10.0)
     assert point.heat_flux_W_m2 == pytest.approx(100_000.0)
+    assert point.study_id == "demo"
+    assert point.source_group == "demo"
+    assert point.experiment_id == "demo:curve_a"
+    assert point.evidence_class == "digitized"
 
 
 def test_data_point_rejects_unphysical_pool_boiling_values():

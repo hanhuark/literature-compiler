@@ -1,6 +1,10 @@
-# Examples
+# Research cases
 
-Examples are community literature-compilation cases. Each case starts from a specific research question and builds toward a reproducible quantitative comparison.
+This directory is retained as `examples/` for package compatibility, but its
+contents are research cases rather than generic examples. Each case starts from
+a specific research question and builds toward a reproducible quantitative
+comparison. Its status describes the current evidence maturity, not a model
+training or validation claim.
 
 ## Current Cases
 
