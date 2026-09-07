@@ -1,10 +1,28 @@
 papers:
+- ref_id: boteler_2011_mmc_smc_thesis
+  status: source_checked_reported_screening_facts
+  evidence_tier: A_candidate
+  figure_leads:
+  - Ch. 3, Figs. 3-42 to 3-45: modeled thermal performance and pressure drop for a comparable MMC and SMC.
+  notes: Open numerical comparison. Retain its area-normalized thermal metric until the modeled heat area is independently checked.
+- ref_id: zhang_2022_embedded_mmc_smc
+  status: source_checked_reported_screening_facts
+  evidence_tier: A_candidate
+  figure_leads:
+  - Fig. 7: cooling COP at a fixed thermal target and pumping power versus flow rate for an 8 x 50 um MMC and 50 um SMC.
+  notes: Open paired experiment. The thermal target is shared but Rth is not plotted against pumping power; digitization requires a defensible method or additional author data.
 - ref_id: collins_2019_am_mmc_smc
   status: source_checked_plot_extraction_pending
   evidence_tier: A_candidate
   figure_leads:
   - Thermal and hydraulic performance curves over 500 to 2000 kg/m2/s.
   notes: Paired experimental SMC and MMC candidate. Extract only after checking the temperature reference and pressure boundary in the authorized full text.
+- ref_id: boteler_2012_mmc_sensitivity
+  status: full_text_needed
+  evidence_tier: A_candidate
+  figure_leads:
+  - Formal journal comparison and parametric sensitivity results.
+  notes: Download through authorized access before duplicate extraction from the dissertation.
 - ref_id: kong_2021_3d_mmc_holistic
   status: source_checked_context_only
   evidence_tier: B

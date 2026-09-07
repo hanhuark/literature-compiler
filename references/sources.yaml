@@ -14,6 +14,55 @@ sources:
       fluid: water
       role: paired MMC-SMC experimental candidate
     notes: Source-checked metadata. The paired additively manufactured straight and manifold designs use 500 um hydraulic diameters and water at 500 to 2000 kg/m2 s. Plot values require authorized figure/table extraction.
+  boteler_2011_mmc_smc_thesis:
+    title: Thermal-Hydraulic Design and Analysis of Manifold Microchannel Coolers
+    authors:
+    - Lauren A. Boteler
+    year: 2011
+    doi: null
+    source_url: https://api.drum.lib.umd.edu/server/api/core/bitstreams/cebd9781-2180-4ece-b51c-ce256e0322bc/content
+    tags:
+      process: single-phase liquid cooling
+      fluid: water
+      role: paired MMC-SMC numerical comparison
+    notes: Open dissertation. At a matched modeled system flow condition, the source reports 40.8 C and 36.3 C chip temperature rises and 2395 Pa and 91925 Pa pressure drops for MMC and SMC, respectively. Its reported thermal metric is area-normalized temperature rise divided by heat flux; do not map it to K/W without the model heat area.
+  zhang_2022_embedded_mmc_smc:
+    title: Experimental Investigation of the Embedded Micro-Channel Manifold Cooling for Power Chips
+    authors:
+    - Nan Zhang
+    - Ruiwen Liu
+    - Yanmei Kong
+    - Yuxin Ye
+    - Xiangbin Du
+    - Bo Cong
+    - Lihang Yu
+    - Zhiqiang Wang
+    - Yang Dai
+    - Wei Li
+    - Binbin Jiao
+    - Zhiyong Duan
+    year: 2022
+    doi: 10.2298/TSCI210908328Z
+    source_url: https://www.thermalscience.rs/pdfs/papers-2021/TSCI210908328Z.pdf
+    tags:
+      process: single-phase liquid cooling
+      fluid: deionized water
+      role: paired MMC-SMC experimental comparison
+    notes: Open CC BY-NC-ND article. An embedded 8 x 50 um MMC is compared with a 50 um straight microchannel at 1200 W/cm2 and a 60 C maximum temperature rise; the source reports 3.38 times higher COP for the MMC. The paper separately plots pumping power versus flow but does not directly provide paired thermal-resistance values at those flow points.
+  boteler_2012_mmc_sensitivity:
+    title: Numerical investigation and sensitivity analysis of manifold microchannel coolers
+    authors:
+    - Lauren Boteler
+    - Nicholas Jankowski
+    - Patrick McCluskey
+    - Brian Morgan
+    year: 2012
+    doi: 10.1016/j.ijheatmasstransfer.2012.07.073
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2012.07.073
+    tags:
+      process: single-phase liquid cooling
+      role: formal journal counterpart candidate
+    notes: Candidate formal journal counterpart to the open Boteler dissertation. Full-text acquisition is needed before figure/table extraction.
   kong_2021_3d_mmc_holistic:
     title: A holistic approach to thermal-hydraulic design of 3D manifold microchannel heat sinks for energy-efficient cooling
     authors:
@@ -77,6 +126,24 @@ sources:
       fluid: HFE-7100
       role: MMC experimental context and pressure-boundary exemplar
     notes: Open dissertation. The study reports separate channel and overall pressure measurements; it is not a paired MMC-SMC comparison.
+  drummond_2018_hierarchical_mmc_two_phase:
+    title: A hierarchical manifold microchannel heat sink array for high-heat-flux two-phase cooling of electronics
+    authors:
+    - Kevin P. Drummond
+    - Doosan Back
+    - Michael D. Sinanis
+    - David B. Janes
+    - Dimitrios Peroulis
+    - Justin A. Weibel
+    - Suresh V. Garimella
+    year: 2018
+    doi: 10.1016/j.ijheatmasstransfer.2017.10.015
+    source_url: https://docs.lib.purdue.edu/coolingpubs/320/
+    tags:
+      process: two-phase flow boiling
+      fluid: HFE-7100
+      role: open MMC experimental context
+    notes: Open institutional copy is available through Purdue. It is MMC-only evidence, not a paired MMC-SMC comparison.
   rohsenow_1952:
     title: A method of correlating heat-transfer data for surface boiling of liquids
     authors:

@@ -1,4 +1,10 @@
 papers:
+- ref_id: drummond_2018_hierarchical_mmc_two_phase
+  status: source_checked_open_mmc_context
+  evidence_tier: B
+  figure_leads:
+  - Thermal resistance and pressure drop during HFE-7100 flow boiling in a hierarchical MMC array.
+  notes: Open full text is available, but no matched SMC control is reported.
 - ref_id: lin_2021_mmc_arrangements
   status: source_checked_architecture_context
   evidence_tier: C
