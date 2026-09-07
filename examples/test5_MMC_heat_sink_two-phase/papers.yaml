@@ -1,0 +1,19 @@
+papers:
+- ref_id: lin_2021_mmc_arrangements
+  status: source_checked_architecture_context
+  evidence_tier: C
+  figure_leads:
+  - Single-phase water and two-phase HFE-7100 MMC arrangement comparisons.
+  notes: Explicitly distinguishes single- and two-phase mechanisms. Not a paired MMC-SMC dataset.
+- ref_id: luo_2020_two_phase_mmc_arrangements
+  status: source_checked_architecture_context
+  evidence_tier: C
+  figure_leads:
+  - Two-phase boiling results for different manifold arrangements.
+  notes: Manifold-topology comparison, not an SMC control.
+- ref_id: drummond_2018_mmc_two_phase_dissertation
+  status: source_checked_experimental_context
+  evidence_tier: B
+  figure_leads:
+  - Overall and channel pressure-drop measurements for HFE-7100 MMC arrays.
+  notes: Experimental MMC evidence with a useful pressure-boundary decomposition, but no matched SMC control.

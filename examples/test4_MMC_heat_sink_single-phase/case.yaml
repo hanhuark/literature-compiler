@@ -1,0 +1,20 @@
+case_id: test4_MMC_heat_sink_single-phase
+title: "test4: MMC vs. SMC Heat Sinks in Single-Phase Flow"
+research_question: "For paired manifold microchannel (MMC) and straight microchannel (SMC) heat-sink studies in single-phase liquid cooling, how does thermal resistance vary with pumping power when the system boundary and comparison constraint are explicit?"
+fluid: liquid coolant tracked per study; water is the initial screening focus
+process: single-phase forced convection
+primary_x: pumping_power_W
+primary_y: thermal_resistance_K_W
+secondary_metrics:
+- pressure_drop_Pa
+- volumetric_flow_m3_s
+- mass_flux_kg_m2_s
+- channel_reynolds_number
+- hydraulic_diameter_m
+- channel_aspect_ratio
+- channel_length_m
+- flow_splitting_ratio
+- manifold_topology
+- pressure_boundary
+- thermal_resistance_definition
+status: source-checked screening and extraction scaffold; no plot-ready points are committed until source figures or tables are checked

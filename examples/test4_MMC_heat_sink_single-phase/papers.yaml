@@ -1,0 +1,19 @@
+papers:
+- ref_id: collins_2019_am_mmc_smc
+  status: source_checked_plot_extraction_pending
+  evidence_tier: A_candidate
+  figure_leads:
+  - Thermal and hydraulic performance curves over 500 to 2000 kg/m2/s.
+  notes: Paired experimental SMC and MMC candidate. Extract only after checking the temperature reference and pressure boundary in the authorized full text.
+- ref_id: kong_2021_3d_mmc_holistic
+  status: source_checked_context_only
+  evidence_tier: B
+  figure_leads:
+  - Thermal resistance and pressure drop versus mass flow rate for twelve MMC geometries and a conventional microchannel reference.
+  notes: Numerical comparative context. Do not treat separate maximum percentage reductions as one pumping-power point.
+- ref_id: lin_2021_mmc_arrangements
+  status: source_checked_architecture_context
+  evidence_tier: C
+  figure_leads:
+  - Six MMC topology comparisons.
+  notes: MMC-topology study rather than a paired MMC-SMC comparison.

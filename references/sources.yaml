@@ -1,4 +1,82 @@
 sources:
+  collins_2019_am_mmc_smc:
+    title: Evaluation of Additively Manufactured Microchannel Heat Sinks
+    authors:
+    - Ivel L. Collins
+    - Justin A. Weibel
+    - Liang Pan
+    - Suresh V. Garimella
+    year: 2019
+    doi: 10.1109/TCPMT.2018.2866972
+    source_url: https://experts.arizona.edu/en/publications/evaluation-of-additively-manufactured-microchannel-heat-sinks/
+    tags:
+      process: single-phase liquid cooling
+      fluid: water
+      role: paired MMC-SMC experimental candidate
+    notes: Source-checked metadata. The paired additively manufactured straight and manifold designs use 500 um hydraulic diameters and water at 500 to 2000 kg/m2 s. Plot values require authorized figure/table extraction.
+  kong_2021_3d_mmc_holistic:
+    title: A holistic approach to thermal-hydraulic design of 3D manifold microchannel heat sinks for energy-efficient cooling
+    authors:
+    - Daeyoung Kong
+    - Yunseo Kim
+    - Minsoo Kang
+    - Erdong Song
+    - Yongtaek Hong
+    - Han Sang Kim
+    - Kyupaeck Jeff Rah
+    - Hyoung Gil Choi
+    - Damena Agonafer
+    - Hyoungsoon Lee
+    year: 2021
+    doi: 10.1016/j.csite.2021.101583
+    source_url: https://doi.org/10.1016/j.csite.2021.101583
+    tags:
+      process: single-phase liquid cooling
+      fluid: water
+      role: MMC geometry and conventional-microchannel comparison candidate
+    notes: Source-checked metadata. Full-3D conjugate simulations cover twelve MMC geometries and compare against a conventional microchannel. Do not convert independently reported maximum percentage improvements into a common pumping-power point.
+  lin_2021_mmc_arrangements:
+    title: Single-phase and Two-phase Flow and Heat Transfer in Microchannel Heat Sink with Various Manifold Arrangements
+    authors:
+    - Yuhao Lin
+    - Yang Luo
+    - Wei Li
+    - Yanlong Cao
+    - Zhi Tao
+    - Tom I-P. Shih
+    year: 2021
+    doi: 10.1016/j.ijheatmasstransfer.2021.121118
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2021.121118
+    tags:
+      process: single-phase and two-phase cooling
+      fluid: water and HFE-7100
+      role: MMC manifold-topology comparison candidate
+    notes: Source-checked metadata. This numerical study compares six MMC arrangements; it is architecture context, not a directly paired MMC-SMC dataset.
+  luo_2020_two_phase_mmc_arrangements:
+    title: A comparative numerical study on two-phase boiling fluid flow and heat transfer in the microchannel heat sink with different manifold arrangements
+    authors:
+    - Yang Luo
+    - Jingzhi Zhang
+    - Wei Li
+    year: 2020
+    doi: 10.1016/j.ijheatmasstransfer.2020.119864
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2020.119864
+    tags:
+      process: two-phase flow boiling
+      role: MMC manifold-topology comparison candidate
+    notes: Source-checked metadata. This is retained for manifold-topology context; it is not evidence of a paired MMC-SMC comparison.
+  drummond_2018_mmc_two_phase_dissertation:
+    title: Characterization of Manifold Microchannel Heat Sinks During Two-Phase Operation
+    authors:
+    - Kevin P. Drummond
+    year: 2018
+    doi: null
+    source_url: https://docs.lib.purdue.edu/open_access_dissertations/1865/
+    tags:
+      process: two-phase flow boiling
+      fluid: HFE-7100
+      role: MMC experimental context and pressure-boundary exemplar
+    notes: Open dissertation. The study reports separate channel and overall pressure measurements; it is not a paired MMC-SMC comparison.
   rohsenow_1952:
     title: A method of correlating heat-transfer data for surface boiling of liquids
     authors:

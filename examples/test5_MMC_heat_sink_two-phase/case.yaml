@@ -1,0 +1,23 @@
+case_id: test5_MMC_heat_sink_two-phase
+title: "test5: MMC vs. SMC Heat Sinks in Two-Phase Flow"
+research_question: "For paired manifold microchannel (MMC) and straight microchannel (SMC) heat-sink studies in two-phase operation, how does thermal resistance vary with pumping power when phase condition, pressure boundary, and stability state are explicit?"
+fluid: refrigerant or water tracked per study
+process: two-phase flow boiling or evaporative cooling
+primary_x: pumping_power_W
+primary_y: thermal_resistance_K_W
+secondary_metrics:
+- pressure_drop_Pa
+- volumetric_flow_m3_s
+- mass_flux_kg_m2_s
+- heat_flux_W_m2
+- inlet_subcooling_K
+- inlet_pressure_Pa
+- outlet_quality
+- channel_aspect_ratio
+- channel_hydraulic_diameter_m
+- manifold_topology
+- flow_instability_observation
+- dryout_or_chf_observation
+- pressure_boundary
+- thermal_resistance_definition
+status: source-checked screening and extraction scaffold; no plot-ready paired MMC-SMC points are committed until source figures or tables are checked
