@@ -4,6 +4,7 @@ import importlib.util
 from pathlib import Path
 
 import pandas as pd
+import yaml
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -43,3 +44,17 @@ def test_pumping_power_is_calculated_in_si_units():
     compiled = builder.compile_points(point)
     assert compiled.loc[0, "pumping_power_W"] == 0.1
     assert compiled.loc[0, "pumping_power_calculation"] == "pressure_drop_x_volumetric_flow"
+
+
+def test_application_evidence_uses_auditable_categories_and_known_sources():
+    allowed_categories = {
+        "computing", "power_electronics", "electronics_unspecified", "not_stated", "non_electronics",
+    }
+    with (REPO_ROOT / "references" / "sources.yaml").open(encoding="utf-8") as handle:
+        sources = yaml.safe_load(handle)["sources"]
+
+    for case_id in ("test4_MMC_heat_sink_single-phase", "test5_MMC_heat_sink_two-phase"):
+        evidence = pd.read_csv(REPO_ROOT / "examples" / case_id / "data" / "application_evidence.csv")
+        assert set(evidence["application_category"]).issubset(allowed_categories)
+        assert set(evidence["paper_id"]).issubset(sources)
+        assert set(evidence["application_evidence"]).issubset({"source_stated", "not_stated"})

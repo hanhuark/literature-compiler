@@ -144,6 +144,71 @@ sources:
       fluid: HFE-7100
       role: open MMC experimental context
     notes: Open institutional copy is available through Purdue. It is MMC-only evidence, not a paired MMC-SMC comparison.
+  ryu_2003_mmc_smc_optimization:
+    title: Three-dimensional numerical optimization of a manifold microchannel heat sink
+    authors:
+    - J. H. Ryu
+    - D. H. Choi
+    - S. J. Kim
+    year: 2003
+    doi: 10.1016/S0017-9310(02)00443-X
+    source_url: https://doi.org/10.1016/S0017-9310(02)00443-X
+    tags:
+      process: single-phase liquid cooling
+      role: paired MMC-SMC numerical comparison candidate
+    notes: Source-checked metadata. The article reports numerical optimization of a manifold microchannel heat sink against a traditional straight microchannel heat sink; inspect full text before extracting boundaries or values.
+  jung_2019_vehicle_power_mmc:
+    title: "Embedded cooling with 3D manifold for vehicle power electronics application: Single-phase thermal-fluid performance"
+    authors:
+    - Ki Wook Jung
+    - Chirag R. Kharangate
+    - Hyoungsoon Lee
+    - James Palko
+    - Feng Zhou
+    - Mehdi Asheghi
+    - Ercan M. Dede
+    - Kenneth E. Goodson
+    year: 2019
+    doi: 10.1016/j.ijheatmasstransfer.2018.10.108
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2018.10.108
+    tags:
+      process: single-phase liquid cooling
+      fluid: deionized water
+      application: vehicle power electronics
+      role: MMC experimental application context
+    notes: Source-checked abstract reports embedded 3D-manifold cooling for vehicle power electronics and measured thermal resistance and total pressure drop. It is MMC-only, not a paired SMC comparison.
+  van_erp_2019_converter_mmc:
+    title: A manifold microchannel heat sink for ultra-high power density liquid-cooled converters
+    authors:
+    - Remco van Erp
+    - Georgios Kampitsis
+    - Elison Matioli
+    year: 2019
+    doi: 10.1109/APEC.2019.8722308
+    source_url: https://doi.org/10.1109/APEC.2019.8722308
+    tags:
+      process: single-phase liquid cooling
+      application: power electronics converters
+      role: MMC application context
+    notes: Source-checked metadata identifies an MMC for liquid-cooled converters. Obtain authorized proceedings before detailed geometry or performance extraction.
+  hazra_2022_multilevel_mmc:
+    title: Parametric design analysis of a multi-level 3D manifolded microchannel cooler via reduced order numerical modeling
+    authors:
+    - Sougata Hazra
+    - Tiwei Wei
+    - Yujui Lin
+    - Mehdi Asheghi
+    - Kenneth Goodson
+    - Man Prakash Gupta
+    - Michael Degner
+    year: 2022
+    doi: 10.1016/j.ijheatmasstransfer.2022.123356
+    source_url: https://doi.org/10.1016/j.ijheatmasstransfer.2022.123356
+    tags:
+      process: single-phase liquid cooling
+      application: power-dense electronics
+      role: MMC reduced-order design-space context
+    notes: Source-checked abstract describes parametric multi-level 3D MMC design for power-dense electronics. It is not a paired MMC-SMC dataset.
   rohsenow_1952:
     title: A method of correlating heat-transfer data for surface boiling of liquids
     authors:

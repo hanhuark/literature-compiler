@@ -35,3 +35,27 @@ papers:
   figure_leads:
   - Six MMC topology comparisons.
   notes: MMC-topology study rather than a paired MMC-SMC comparison.
+- ref_id: ryu_2003_mmc_smc_optimization
+  status: source_checked_abstract_context
+  evidence_tier: B
+  figure_leads:
+  - Equal-pumping-power numerical comparison of an optimized manifold and a traditional straight microchannel heat sink.
+  notes: Direct numerical architecture comparison; retain as context until the thermal and hydraulic reference boundaries are checked in the full article.
+- ref_id: jung_2019_vehicle_power_mmc
+  status: source_checked_mmc_application_context
+  evidence_tier: B
+  figure_leads:
+  - Measured thermal resistance and total pressure drop for an embedded 3D MMC in a vehicle-power-electronics application.
+  notes: MMC-only experimental reference with unusually clear application identity; it is not a paired SMC comparison.
+- ref_id: van_erp_2019_converter_mmc
+  status: source_checked_mmc_application_context
+  evidence_tier: B
+  figure_leads:
+  - Embedded MMC for ultra-high-power-density liquid-cooled converters.
+  notes: Power-electronics application anchor; obtain the authorized proceedings before extracting quantitative points.
+- ref_id: hazra_2022_multilevel_mmc
+  status: source_checked_mmc_architecture_context
+  evidence_tier: C
+  figure_leads:
+  - Reduced-order parametric study of multi-level 3D MMC designs.
+  notes: Design-space context, not a paired experimental MMC-SMC dataset.

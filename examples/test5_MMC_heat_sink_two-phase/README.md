@@ -22,6 +22,10 @@ but it does **not** apply the Curl single-phase laminar-to-turbulent crossover e
 
 The first source-checked pass did not identify a plot-ready paired experimental MMC-SMC two-phase dataset. This is a documented corpus limitation, not evidence that no such work exists. The case is designed to make the missing comparison measurable and to receive verified data when source figures/tables are audited.
 
+## Application Layer
+
+The two-phase corpus is tagged using only the application stated in the source. Its early entries are predominately `electronics_unspecified`; that is an evidence gap, not support for a CPU/GPU or power-module prevalence claim. See [`application_evidence.csv`](data/application_evidence.csv) and the shared [application framework](../mmc_smc_application_framework.md).
+
 ## Inclusion Criteria
 
 - Flow boiling or evaporative two-phase operation with fluid, inlet state, heat flux, and mass/volumetric flow documented.

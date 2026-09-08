@@ -1,0 +1,10 @@
+paper_id,architecture_scope,application_category,device_or_system,application_evidence,cooling_integration_level,comparison_evidence,source_locator,notes
+boteler_2011_mmc_smc_thesis,paired_MMC_SMC,not_stated,,not_stated,not_stated,modeled_paired,Chapter 3,Do not assign a chip class from the modeled geometry alone.
+zhang_2022_embedded_mmc_smc,paired_MMC_SMC,power_electronics,power chips,source_stated,embedded,measured_paired,Title and Fig. 7,The source states power chips; it does not establish a CPU or GPU application.
+collins_2019_am_mmc_smc,paired_MMC_SMC,electronics_unspecified,high-power electronic devices,source_stated,remote_cold_plate_or_unspecified,measured_paired,Article abstract,Use a more specific device tag only after full-text review.
+kong_2021_3d_mmc_holistic,MMC_with_conventional_reference,electronics_unspecified,high-performance electronics,source_stated,not_stated,simulated_comparative,Article abstract,The abstract does not identify a CPU GPU or power module.
+ryu_2003_mmc_smc_optimization,paired_MMC_SMC,not_stated,,not_stated,not_stated,simulated_paired,Article title and abstract metadata,Application identity requires full-text review.
+jung_2019_vehicle_power_mmc,MMC_only,power_electronics,vehicle power electronics,source_stated,embedded,measured_MMC_only,Title and abstract,Application anchor only; no SMC control.
+van_erp_2019_converter_mmc,MMC_only,power_electronics,liquid-cooled converters,source_stated,embedded,MMC_design_context,Article title,Acquire proceedings for geometry and performance extraction.
+hazra_2022_multilevel_mmc,MMC_only,electronics_unspecified,power-dense electronics,source_stated,embedded_or_unspecified,simulated_MMC_only,Article abstract,No particular computing or power-electronics device is stated.
+lin_2021_mmc_arrangements,MMC_topology_only,electronics_unspecified,electronic devices,source_stated,not_stated,simulated_MMC_topology,Introduction,Also applies to test5 because the paper contains both regimes.

@@ -24,6 +24,10 @@ The initial source-checked corpus supports the following limited conclusions.
 
 The evidence is **screening-level**. This case does not claim a universal crossover, model validation, or a quantitative literature trend until paired points are extracted with provenance.
 
+## Application Layer
+
+The paired-performance corpus is tagged by the application stated in the source: `computing`, `power_electronics`, `electronics_unspecified`, `not_stated`, or `non_electronics`. The tag is not inferred from a high heat flux, a silicon substrate, or the journal venue. See [`application_evidence.csv`](data/application_evidence.csv) and the shared [application framework](../mmc_smc_application_framework.md). This prevents a power-converter result from being silently presented as CPU/GPU evidence, and vice versa.
+
 ## Inclusion Criteria
 
 - Single-phase liquid operation with coolant and inlet state stated.

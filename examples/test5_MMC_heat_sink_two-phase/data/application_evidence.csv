@@ -1,0 +1,5 @@
+paper_id,architecture_scope,application_category,device_or_system,application_evidence,cooling_integration_level,comparison_evidence,source_locator,notes
+drummond_2018_hierarchical_mmc_two_phase,MMC_only,electronics_unspecified,electronics,source_stated,not_stated,measured_MMC_only,Article title,No CPU GPU or power-module device class is stated in the retained record.
+drummond_2018_mmc_two_phase_dissertation,MMC_only,electronics_unspecified,electronics,source_stated,not_stated,measured_MMC_only,Dissertation title,Preserve separate channel and overall pressure boundaries during later extraction.
+lin_2021_mmc_arrangements,MMC_topology_only,electronics_unspecified,electronic devices,source_stated,not_stated,simulated_MMC_topology,Introduction,The source distinguishes the two-phase regime but does not identify a device class.
+luo_2020_two_phase_mmc_arrangements,MMC_topology_only,not_stated,,not_stated,not_stated,simulated_MMC_topology,Article metadata,Application identity requires full-text review.

@@ -20,4 +20,8 @@ secondary_metrics:
 - dryout_or_chf_observation
 - pressure_boundary
 - thermal_resistance_definition
+- application_category
+- device_or_system
+- application_evidence
+- cooling_integration_level
 status: source-checked screening and extraction scaffold; no plot-ready paired MMC-SMC points are committed until source figures or tables are checked

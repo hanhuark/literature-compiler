@@ -16,6 +16,8 @@ training or validation claim.
 | [`test4: MMC vs. SMC, single phase`](test4_MMC_heat_sink_single-phase/) | Under matched pumping power, how do reported thermal resistances of MMC and SMC heat sinks compare during single-phase operation? | Source-checked screening and extraction scaffold |
 | [`test5: MMC vs. SMC, two phase`](test5_MMC_heat_sink_two-phase/) | Under matched pumping power, how do reported thermal resistances of MMC and SMC heat sinks compare during two-phase operation? | Source-checked screening and extraction scaffold |
 
+The MMC/SMC cases share an [application-evidence and first-principles framework](mmc_smc_application_framework.md). It separates computing, power-electronics, and unspecified-electronics records without inferring application from a heat-sink geometry.
+
 ## Add A Case
 
 Use [the case template](../docs/case-template.md) and the [community workflow](../docs/community-workflow.md) when starting another research-question case.
