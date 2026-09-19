@@ -1,0 +1,15 @@
+case_id: test6_bubbles_dynamics
+title: "test6_bubbles_dynamics"
+research_question: "What bubble growth and bubble departure characteristics have been reported during pool boiling, and how do these results vary with operating and surface conditions?"
+fluid: water
+process: pool boiling
+primary_x: time_ms
+primary_y: bubble_size_um
+secondary_metrics: 
+- bubble_departure_diameter_um
+- bubble_departure_period_ms
+- heat_flux_W_cm2
+- pressure
+- surface_material
+- surface_state
+status: in progress 

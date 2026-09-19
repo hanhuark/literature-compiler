@@ -1,0 +1,5 @@
+papers:
+- ref_id: bubble_dynamics_Zhen_sun2017
+  status: selected
+  notes: Initial Test 6 data source. Provides quantitative bubble departure
+      diameter data during pool boiling.
