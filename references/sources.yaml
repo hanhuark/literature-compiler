@@ -1398,3 +1398,55 @@ sources:
       surface: nanostructured
       role: unresolved manual seed candidate
     notes: Manual seed row C22; title, DOI, and extraction location need verification.
+  bubble_dynamics_Zhen_sun2017:
+    title: Bubble dynamics and heat transfer during pool boiling on wettability patterned surfaces
+    authors:
+    - Zhen Sun
+    - Xiaodan Chen
+    - Huihe Qiu
+    year: 2017
+    doi: 10.1080/01457632.2017.1325676
+    tags:
+      case: test6_bubbles_dynamics
+      process: pool boiling
+      fluid: water
+      surface: wettability-patterned (hydrophobic/hydrophilic)
+      role: seed source
+    notes: Seed source for test_6; departure diameter (Fig. 12, 22 points) and departure period (Fig. 13, 10 of 11 stated points) digitized from figures, not text-reported values.
+  bubble_growth_Mahmoud2023:
+    title: "Bubble growth models in saturated pool boiling of water on a smooth metallic surface: Assessment and a new recommendation"
+    authors:
+    - M.M. Mahmoud
+    - T.G. Karayiannis
+    year: 2023
+    doi: 10.1016/j.ijheatmasstransfer.2023.124065
+    tags:
+      case: test6_bubbles_dynamics
+      process: pool boiling
+      fluid: water
+      surface: smooth metallic surface
+      role: seed source candidate
+    notes: Seed source for test_6; bubble growth model data, extraction pending.
+  bubble_growth_Tecchio2024:
+    title: Microlayer evaporation during bubble growth in nucleate boiling
+    authors:
+    - Cassiano Tecchio
+    - Benjamin Cariteau
+    - Corentin Le Houedec
+    - Guillaume Bois
+    - Elie Saikali
+    - Gilbert Zalczer
+    - Simon Vassant
+    - Pere Roca i Cabarrocas
+    - Pavel Bulkin
+    - Jérôme Charliac
+    - Vadim S. Nikolayev
+    year: 2024
+    doi: 10.1016/j.ijheatmasstransfer.2024.125860
+    tags:
+      case: test6_bubbles_dynamics
+      process: pool boiling
+      fluid: water
+      surface: ITO (indium tin oxide) transparent heating film
+      role: seed source candidate
+    notes: Seed source for test_6; extraction pending.
