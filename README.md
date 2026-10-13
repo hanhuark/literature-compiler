@@ -2,6 +2,9 @@
 
 `literature-compiler` is a community workflow and Python toolkit for compiling quantitative literature data with explicit provenance.
 
+Repository scope, evidence, and reuse boundaries are also available in the
+[NED3 resource manifest](.ned3/resource-manifest-v0.1.json).
+
 The project is organized around research-question cases. Each case defines a focused question, registers relevant papers, extracts reported or digitized data, compiles canonical variables, and produces comparison plots that others can inspect and improve.
 
 The repository contains research cases, not generic examples. Each case has its
